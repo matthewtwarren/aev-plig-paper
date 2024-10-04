@@ -1,0 +1,1185 @@
+,key,pred,pk,unique_id
+0,bayer,7.904,8.831,bayer_macrocycles/wagner_brd4/61a
+1,bayer,7.731,8.316,bayer_macrocycles/wagner_brd4/25e
+2,bayer,6.077,6.035,bayer_macrocycles/wagner_brd4/11
+3,bayer,6.481,9.133,"bayer_macrocycles/ftase_extraligs_custcore_stereo/lig 2, deprot"
+4,bayer,6.654,9.044,"bayer_macrocycles/ftase_extraligs_custcore_stereo/lig 66, deprot"
+5,bayer,6.599,8.912,"bayer_macrocycles/ftase_extraligs_custcore_stereo/lig 68, deprot"
+6,bayer,6.567,8.389,bayer_macrocycles/ftase_extraligs_custcore_stereo/lig 51 stereo
+7,bayer,6.499,8.537,bayer_macrocycles/ftase_extraligs_custcore_stereo/lig 49 stereo
+8,jacs,6.279,6.513,jacs_set/ptp1b/23477
+9,jacs,6.597,5.703,jacs_set/ptp1b/23484
+10,jacs,5.519,5.402,jacs_set/ptp1b/23467
+11,jacs,6.775,8.404,jacs_set/ptp1b/20667
+12,jacs,6.408,5.681,jacs_set/ptp1b/23469
+13,jacs,6.788,7.264,jacs_set/ptp1b/23483
+14,jacs,6.417,6.417,jacs_set/ptp1b/23480
+15,jacs,6.319,6.704,jacs_set/ptp1b/23474
+16,jacs,6.187,6.174,jacs_set/ptp1b/23473
+17,jacs,5.935,5.703,jacs_set/ptp1b/23471
+18,jacs,6.283,6.336,jacs_set/ptp1b/20669
+19,jacs,6.205,6.925,jacs_set/ptp1b/23476
+20,jacs,5.506,5.777,jacs_set/ptp1b/23466
+21,jacs,6.171,6.366,jacs_set/ptp1b/23472
+22,jacs,6.485,7.367,jacs_set/ptp1b/23482
+23,jacs,6.797,9.177,jacs_set/ptp1b/23486
+24,jacs,6.101,5.681,jacs_set/ptp1b/23470
+25,jacs,5.865,5.703,jacs_set/ptp1b/23468
+26,jacs,6.779,8.102,jacs_set/ptp1b/23485
+27,jacs,6.845,7.455,jacs_set/ptp1b/23330
+28,jacs,6.418,6.682,jacs_set/ptp1b/20670
+29,jacs,6.413,6.726,jacs_set/ptp1b/23479
+30,jacs,6.302,6.417,jacs_set/ptp1b/23475
+31,jacs,6.178,6.498,jacs_set/mcl1_extra_flips/23
+32,jacs,6.126,6.064,jacs_set/mcl1_extra_flips/26
+33,jacs,5.437,4.504,jacs_set/mcl1_extra_flips/27
+34,jacs,5.745,4.872,jacs_set/mcl1_extra_flips/28
+35,jacs,6.449,5.107,jacs_set/mcl1_extra_flips/29
+36,jacs,5.761,5.777,jacs_set/mcl1_extra_flips/30 flip
+37,jacs,6.805,5.828,jacs_set/mcl1_extra_flips/31
+38,jacs,5.775,4.842,jacs_set/mcl1_extra_flips/32
+39,jacs,5.836,5.063,jacs_set/mcl1_extra_flips/33
+40,jacs,6.452,5.056,jacs_set/mcl1_extra_flips/34
+41,jacs,6.541,6.483,jacs_set/mcl1_extra_flips/35
+42,jacs,6.602,6.02,jacs_set/mcl1_extra_flips/36
+43,jacs,6.973,6.586,jacs_set/mcl1_extra_flips/37
+44,jacs,6.797,5.166,jacs_set/mcl1_extra_flips/38 flip
+45,jacs,6.84,5.174,jacs_set/mcl1_extra_flips/39
+46,jacs,7.18,5.335,jacs_set/mcl1_extra_flips/40 flip
+47,jacs,6.836,5.247,jacs_set/mcl1_extra_flips/41 flip
+48,jacs,6.304,6.55,jacs_set/mcl1_extra_flips/42
+49,jacs,6.345,5.174,jacs_set/mcl1_extra_flips/43 flip
+50,jacs,7.124,6.38,jacs_set/mcl1_extra_flips/44
+51,jacs,7.034,6.586,jacs_set/mcl1_extra_flips/45
+52,jacs,6.534,5.593,jacs_set/mcl1_extra_flips/46 flip
+53,jacs,6.288,4.254,jacs_set/mcl1_extra_flips/47 flip
+54,jacs,6.235,4.901,jacs_set/mcl1_extra_flips/48 flip
+55,jacs,7.046,6.152,jacs_set/mcl1_extra_flips/49
+56,jacs,7.42,6.866,jacs_set/mcl1_extra_flips/50
+57,jacs,6.784,6.219,jacs_set/mcl1_extra_flips/51
+58,jacs,7.177,6.793,jacs_set/mcl1_extra_flips/52
+59,jacs,7.519,7.33,jacs_set/mcl1_extra_flips/53
+60,jacs,6.747,7.197,jacs_set/mcl1_extra_flips/54
+61,jacs,7.108,6.815,jacs_set/mcl1_extra_flips/56
+62,jacs,6.374,6.653,jacs_set/mcl1_extra_flips/57
+63,jacs,7.65,6.925,jacs_set/mcl1_extra_flips/58
+64,jacs,6.91,6.564,jacs_set/mcl1_extra_flips/60
+65,jacs,7.337,5.946,jacs_set/mcl1_extra_flips/61
+66,jacs,6.622,5.858,jacs_set/mcl1_extra_flips/62
+67,jacs,7.45,6.667,jacs_set/mcl1_extra_flips/63
+68,jacs,6.634,6.991,jacs_set/mcl1_extra_flips/64
+69,jacs,7.254,6.189,jacs_set/mcl1_extra_flips/65
+70,jacs,6.488,6.204,jacs_set/mcl1_extra_flips/66
+71,jacs,6.832,5.578,jacs_set/mcl1_extra_flips/67
+72,jacs,6.365,5.659,jacs_set/mcl1_extra_flips/68
+73,jacs,7.687,5.181,jacs_set/cdk2/17
+74,jacs,8.042,8.176,jacs_set/cdk2/28
+75,jacs,7.644,5.784,jacs_set/cdk2/22
+76,jacs,7.771,7.219,jacs_set/cdk2/30
+77,jacs,7.608,5.644,jacs_set/cdk2/1h1r
+78,jacs,8.13,8.279,jacs_set/cdk2/1h1s
+79,jacs,7.402,5.762,jacs_set/cdk2/21
+80,jacs,7.684,7.205,jacs_set/cdk2/1oiy
+81,jacs,7.892,6.682,jacs_set/cdk2/1oiu
+82,jacs,7.634,7.021,jacs_set/cdk2/31
+83,jacs,7.487,7.271,jacs_set/cdk2/29
+84,jacs,7.497,6.204,jacs_set/cdk2/26
+85,jacs,7.567,7.168,jacs_set/cdk2/1oi9
+86,jacs,7.326,6.417,jacs_set/cdk2/20
+87,jacs,8.297,7.175,jacs_set/cdk2/32
+88,jacs,7.339,6.02,jacs_set/cdk2/1h1q
+89,jacs,6.765,6.528,jacs_set/jnk1_manual_flips/18626-1
+90,jacs,6.189,6.402,jacs_set/jnk1_manual_flips/18628-1_flip
+91,jacs,6.673,6.38,jacs_set/jnk1_manual_flips/18629-1
+92,jacs,7.035,5.527,jacs_set/jnk1_manual_flips/18636-1
+93,jacs,7.04,7.124,jacs_set/jnk1_manual_flips/17124-1
+94,jacs,6.722,6.241,jacs_set/jnk1_manual_flips/18627-1
+95,jacs,7.006,7.425,jacs_set/jnk1_manual_flips/18638-1
+96,jacs,7.031,6.969,jacs_set/jnk1_manual_flips/18659-1
+97,jacs,6.9,7.168,jacs_set/jnk1_manual_flips/18639-1
+98,jacs,6.889,7.352,jacs_set/jnk1_manual_flips/18634-1
+99,jacs,6.644,6.726,jacs_set/jnk1_manual_flips/18630-1
+100,jacs,6.993,7.462,jacs_set/jnk1_manual_flips/18637-1
+101,jacs,6.674,7.138,jacs_set/jnk1_manual_flips/18658-1
+102,jacs,6.611,6.682,jacs_set/jnk1_manual_flips/18632-1
+103,jacs,6.656,6.748,jacs_set/jnk1_manual_flips/18633-1
+104,jacs,6.821,5.365,jacs_set/jnk1_manual_flips/18635-1
+105,jacs,6.74,6.925,jacs_set/jnk1_manual_flips/18631-1
+106,jacs,7.24,6.402,jacs_set/jnk1_manual_flips/18660-1
+107,jacs,6.821,5.968,jacs_set/jnk1_manual_flips/18625-1
+108,jacs,6.455,6.248,jacs_set/jnk1_manual_flips/18624-1
+109,jacs,7.289,7.86,jacs_set/jnk1_manual_flips/18652-1
+110,jacs,7.821,6.756,jacs_set/thrombin_core/6a
+111,jacs,7.283,6.123,jacs_set/thrombin_core/3a
+112,jacs,7.281,6.071,jacs_set/thrombin_core/1d
+113,jacs,7.765,6.557,jacs_set/thrombin_core/6e
+114,jacs,7.804,6.542,jacs_set/thrombin_core/6b
+115,jacs,7.446,6.226,jacs_set/thrombin_core/1b
+116,jacs,7.303,5.505,jacs_set/thrombin_core/1a
+117,jacs,6.838,5.578,jacs_set/thrombin_core/5
+118,jacs,7.345,5.784,jacs_set/thrombin_core/3b
+119,jacs,7.576,6.049,jacs_set/thrombin_core/7a
+120,jacs,7.382,6.299,jacs_set/thrombin_core/1c
+121,jacs,7.389,8.61,jacs_set/tyk2/jmc_23
+122,jacs,7.201,7.138,jacs_set/tyk2/ejm_47
+123,jacs,6.87,5.703,jacs_set/tyk2/ejm_49
+124,jacs,6.935,7.021,jacs_set/tyk2/ejm_31
+125,jacs,7.343,7.035,jacs_set/tyk2/ejm_45
+126,jacs,7.126,5.461,jacs_set/tyk2/ejm_44
+127,jacs,7.057,6.079,jacs_set/tyk2/ejm_43
+128,jacs,6.611,6.609,jacs_set/tyk2/ejm_50
+129,jacs,6.985,7.197,jacs_set/tyk2/ejm_42
+130,jacs,6.873,6.778,jacs_set/tyk2/ejm_55
+131,jacs,7.306,6.623,jacs_set/tyk2/ejm_48
+132,jacs,7.189,7.749,jacs_set/tyk2/ejm_54
+133,jacs,7.104,8.08,jacs_set/tyk2/jmc_28
+134,jacs,7.52,8.301,jacs_set/tyk2/jmc_27
+135,jacs,7.006,8.051,jacs_set/tyk2/jmc_30
+136,jacs,7.178,8.323,jacs_set/tyk2/ejm_46
+137,jacs,7.86,7.418,jacs_set/p38/2j
+138,jacs,7.948,7.845,jacs_set/p38/2gg
+139,jacs,8.329,9.022,jacs_set/p38/2q
+140,jacs,8.211,8.721,jacs_set/p38/2t
+141,jacs,7.744,7.845,jacs_set/p38/2g
+142,jacs,8.206,9.022,jacs_set/p38/2l
+143,jacs,7.801,9.022,jacs_set/p38/2ee
+144,jacs,7.243,6.822,jacs_set/p38/2aa
+145,jacs,8.046,7.72,jacs_set/p38/2o
+146,jacs,7.733,7.86,jacs_set/p38/3flw
+147,jacs,8.479,9.022,jacs_set/p38/2u
+148,jacs,7.922,8.242,jacs_set/p38/2p
+149,jacs,7.569,6.977,jacs_set/p38/2h
+150,jacs,7.929,8.706,jacs_set/p38/3fmk
+151,jacs,7.763,7.396,jacs_set/p38/2i
+152,jacs,7.509,6.241,jacs_set/p38/2f
+153,jacs,7.836,7.528,jacs_set/p38/2x
+154,jacs,8.064,8.419,jacs_set/p38/2ff
+155,jacs,7.783,7.764,jacs_set/p38/2k
+156,jacs,7.835,8.721,jacs_set/p38/2n
+157,jacs,7.752,7.308,jacs_set/p38/3flq
+158,jacs,7.941,8.007,jacs_set/p38/3fln
+159,jacs,7.514,7.874,jacs_set/p38/2e
+160,jacs,7.955,7.97,jacs_set/p38/3fmh
+161,jacs,7.471,7.698,jacs_set/p38/2c
+162,jacs,7.866,7.197,jacs_set/p38/2y
+163,jacs,8.01,8.176,jacs_set/p38/2s
+164,jacs,8.209,8.066,jacs_set/p38/2m
+165,jacs,7.47,6.667,jacs_set/p38/2bb
+166,jacs,7.176,6.601,jacs_set/p38/2v
+167,jacs,8.216,7.941,jacs_set/p38/2r
+168,jacs,7.387,6.984,jacs_set/p38/3flz
+169,jacs,7.82,7.624,jacs_set/p38/2z
+170,jacs,7.734,8.404,jacs_set/p38/3fly
+171,jacs,6.815,6.287,jacs_set/bace/CAT-13n
+172,jacs,6.338,7.332,jacs_set/bace/CAT-13e
+173,jacs,6.099,5.838,jacs_set/bace/CAT-4a
+174,jacs,6.505,6.736,jacs_set/bace/CAT-4m
+175,jacs,5.961,7.376,jacs_set/bace/CAT-17b
+176,jacs,6.885,6.427,jacs_set/bace/CAT-13j
+177,jacs,5.433,7.707,jacs_set/bace/CAT-13d
+178,jacs,5.962,6.714,jacs_set/bace/CAT-13b
+179,jacs,5.869,6.508,jacs_set/bace/CAT-13a
+180,jacs,6.009,7.089,jacs_set/bace/CAT-13h
+181,jacs,6.513,6.287,jacs_set/bace/CAT-13o
+182,jacs,6.958,6.692,jacs_set/bace/CAT-13g
+183,jacs,6.094,5.779,jacs_set/bace/CAT-4k
+184,jacs,5.375,7.17,jacs_set/bace/CAT-17g
+185,jacs,6.574,6.876,jacs_set/bace/CAT-4l
+186,jacs,5.963,6.64,jacs_set/bace/CAT-4j
+187,jacs,7.074,6.692,jacs_set/bace/CAT-4n
+188,jacs,6.268,6.824,jacs_set/bace/CAT-13i
+189,jacs,5.833,6.935,jacs_set/bace/CAT-17f
+190,jacs,6.78,7.42,jacs_set/bace/CAT-4p
+191,jacs,5.731,6.861,jacs_set/bace/CAT-13c
+192,jacs,6.359,8.353,jacs_set/bace/CAT-24
+193,jacs,6.678,6.081,jacs_set/bace/CAT-4i
+194,jacs,6.044,5.779,jacs_set/bace/CAT-4c
+195,jacs,6.228,6.971,jacs_set/bace/CAT-17i
+196,jacs,6.519,7.141,jacs_set/bace/CAT-13k
+197,jacs,6.08,7.899,jacs_set/bace/CAT-17a
+198,jacs,5.761,7.258,jacs_set/bace/CAT-17c
+199,jacs,6.391,6.905,jacs_set/bace/CAT-4o
+200,jacs,5.034,6.935,jacs_set/bace/CAT-17d
+201,jacs,6.799,7.089,jacs_set/bace/CAT-4b
+202,jacs,6.668,6.692,jacs_set/bace/CAT-13f
+203,jacs,6.833,6.706,jacs_set/bace/CAT-4d
+204,jacs,6.555,6.449,jacs_set/bace/CAT-13m
+205,jacs,5.458,7.604,jacs_set/bace/CAT-17h
+206,jacs,6.223,7.376,jacs_set/bace/CAT-17e
+207,charge,5.57,6.189,charge_annhil/jnk1/6a
+208,charge,6.143,5.048,charge_annhil/jnk1/19a_neu
+209,charge,6.099,5.372,charge_annhil/jnk1/19b_neu
+210,charge,6.099,5.372,charge_annhil/jnk1/19b_charg
+211,charge,6.022,5.048,charge_annhil/jnk1/19a_charg
+212,charge,8.587,7.271,charge_annhil/egfr/21
+213,charge,8.569,7.315,charge_annhil/egfr/27neu
+214,charge,8.501,7.315,charge_annhil/egfr/27chargR
+215,charge,8.513,7.315,charge_annhil/egfr/27chargS
+216,charge,8.597,7.874,charge_annhil/egfr/28neu
+217,charge,8.454,7.874,charge_annhil/egfr/28charg
+218,charge,8.494,7.698,charge_annhil/egfr/29neu
+219,charge,8.469,7.698,charge_annhil/egfr/29charg
+220,charge,8.543,8.279,charge_annhil/egfr/30neu
+221,charge,8.543,8.279,charge_annhil/egfr/30charg
+222,charge,6.229,5.475,charge_annhil/ptp1b/26charg
+223,charge,6.229,5.475,charge_annhil/ptp1b/26neu
+224,charge,6.505,6.793,charge_annhil/ptp1b/27
+225,charge,6.941,8.485,charge_annhil/ptp1b/32
+226,charge,7.442,7.44,charge_annhil/irak4_s2/17charg
+227,charge,7.593,7.44,charge_annhil/irak4_s2/17neu
+228,charge,6.65,7.072,charge_annhil/irak4_s2/5neu
+229,charge,7.427,8.036,charge_annhil/irak4_s2/18
+230,charge,7.63,6.263,charge_annhil/irak4_s2/6
+231,charge,6.788,7.072,charge_annhil/irak4_s2/5charg
+232,charge,7.506,7.44,charge_annhil/irak4_s2/14
+233,charge,7.338,6.425,charge_annhil/dlk/9
+234,charge,7.848,7.683,charge_annhil/dlk/17charg
+235,charge,7.872,7.683,charge_annhil/dlk/17neu
+236,charge,7.232,6.866,charge_annhil/dlk/4charg
+237,charge,7.223,6.866,charge_annhil/dlk/4neu
+238,charge,7.555,7.344,charge_annhil/dlk/18
+239,charge,7.526,7.735,charge_annhil/dlk/8
+240,charge,7.275,6.991,charge_annhil/irak4_s3/28neu
+241,charge,7.631,7.801,charge_annhil/irak4_s3/19charg
+242,charge,7.202,6.41,charge_annhil/irak4_s3/29
+243,charge,7.631,7.801,charge_annhil/irak4_s3/19neu
+244,charge,7.275,6.991,charge_annhil/irak4_s3/28charg
+245,charge,7.547,6.41,charge_annhil/irak4_s3/27
+246,charge,7.574,8.279,charge_annhil/ephx2/47charg
+247,charge,6.974,6.064,charge_annhil/ephx2/19charg
+248,charge,6.974,6.064,charge_annhil/ephx2/19neu
+249,charge,6.971,6.726,charge_annhil/ephx2/20
+250,charge,7.576,8.279,charge_annhil/ephx2/47neu
+251,charge,7.421,7.904,charge_annhil/ephx2/33
+252,charge,7.734,7.999,charge_annhil/jak1/17
+253,charge,8.394,8.316,charge_annhil/jak1/18charg
+254,charge,8.397,8.316,charge_annhil/jak1/18neu
+255,charge,8.684,8.397,charge_annhil/jak1/jmc_25
+256,charge,8.569,9.618,charge_annhil/jak1/jmc_34
+257,charge,8.014,7.757,charge_annhil/jak1/16charg
+258,charge,7.988,7.757,charge_annhil/jak1/16neu
+259,charge,8.507,8.353,charge_annhil/jak1/jmc_22
+260,charge,7.198,7.205,charge_annhil/tyk2/ejm_47
+261,charge,7.119,8.581,charge_annhil/tyk2/jmc_32charg
+262,charge,7.171,8.036,charge_annhil/tyk2/jmc_31
+263,charge,7.172,8.581,charge_annhil/tyk2/jmc_32neu
+264,charge,7.179,5.512,charge_annhil/tyk2/ejm_52neu
+265,charge,7.179,5.512,charge_annhil/tyk2/ejm_52charg
+266,charge,7.225,8.404,charge_annhil/tyk2/ejm_46
+267,charge,7.817,8.294,charge_annhil/itk/17
+268,charge,7.85,9.251,charge_annhil/itk/1neu
+269,charge,7.801,9.251,charge_annhil/itk/1charg
+270,charge,7.791,9.398,charge_annhil/itk/18
+271,charge,8.031,9.618,charge_annhil/itk/19
+272,charge,6.567,4.298,charge_annhil/thrombin_whole_map/11
+273,charge,6.618,5.004,charge_annhil/thrombin_whole_map/1
+274,charge,6.803,4.165,charge_annhil/thrombin_whole_map/3
+275,charge,7.334,8.485,charge_annhil/thrombin_whole_map/jmb2009-4
+276,charge,6.634,5.644,charge_annhil/thrombin_whole_map/10
+277,charge,6.265,4.519,charge_annhil/thrombin_whole_map/2
+278,charge,6.763,6.16,charge_annhil/cdk2/39neu
+279,charge,6.763,6.16,charge_annhil/cdk2/39charg
+280,charge,6.864,7.271,charge_annhil/cdk2/34
+281,charge,7.021,7.234,charge_annhil/cdk2/25
+282,fragments,6.92,6.594,fragments/hsp90_frag_2rings/18
+283,fragments,6.776,7.3,fragments/hsp90_frag_2rings/17
+284,fragments,7.038,7.551,fragments/hsp90_frag_2rings/19
+285,fragments,6.661,7.271,fragments/hsp90_frag_2rings/15
+286,fragments,6.195,6.417,fragments/hsp90_frag_2rings/14
+287,fragments,6.477,5.976,fragments/hsp90_frag_2rings/16
+288,fragments,5.724,6.66,fragments/frag_liga_auto/12
+289,fragments,4.338,4.695,fragments/frag_liga_auto/9
+290,fragments,3.702,3.532,fragments/frag_liga_auto/5
+291,fragments,4.164,3.9,fragments/frag_liga_auto/6
+292,fragments,5.181,6.682,fragments/frag_liga_auto/11
+293,fragments,4.322,4.813,fragments/frag_liga_auto/10
+294,fragments,5.066,4.29,fragments/frag_liga_auto/8
+295,fragments,4.348,4.438,fragments/frag_liga_auto/3
+296,fragments,4.112,3.864,fragments/frag_liga_auto/7
+297,fragments,5.597,7.852,fragments/frag_liga_auto/13
+298,fragments,4.215,4.783,fragments/frag_liga_auto/4
+299,fragments,5.638,6.115,fragments/hsp90_frag_single_ring/10
+300,fragments,5.432,6.115,fragments/hsp90_frag_single_ring/3
+301,fragments,5.194,5.416,fragments/hsp90_frag_single_ring/9
+302,fragments,5.027,5.909,fragments/hsp90_frag_single_ring/8
+303,fragments,5.227,5.976,fragments/hsp90_frag_single_ring/11
+304,fragments,5.736,6.322,fragments/hsp90_frag_single_ring/12
+305,fragments,4.964,5.1,fragments/hsp90_frag_single_ring/2
+306,fragments,5.559,5.819,fragments/jak2_set1/2_3E63
+307,fragments,5.973,6.155,fragments/jak2_set1/9
+308,fragments,6.186,6.457,fragments/jak2_set1/8
+309,fragments,5.65,5.733,fragments/jak2_set1/5
+310,fragments,6.116,5.257,fragments/jak2_set1/10
+311,fragments,5.36,5.052,fragments/jak2_set1/4a
+312,fragments,5.383,5.052,fragments/jak2_set1/4b
+313,fragments,6.246,4.562,fragments/jak2_set1/6
+314,fragments,5.109,3.853,fragments/jak2_set1/3
+315,fragments,4.416,4.406,fragments/jak2_set1/1_3E62
+316,fragments,6.128,6.521,fragments/jak2_set1/7
+317,fragments,4.151,6.69,fragments/frag_mup1/IBT
+318,fragments,4.142,4.151,fragments/frag_mup1/MT
+319,fragments,4.615,6.035,fragments/frag_mup1/PT
+320,fragments,4.519,6.196,fragments/frag_mup1/SBT_R
+321,fragments,4.112,6.196,fragments/frag_mup1/SBT_S
+322,fragments,4.672,5.777,fragments/frag_mup1/IPT
+323,fragments,4.437,5.122,fragments/frag_mup1/ET
+324,fragments,4.991,3.974,fragments/frag_p38/4
+325,fragments,4.058,2.9,fragments/frag_p38/1_1W7H
+326,fragments,5.588,3.709,fragments/frag_p38/6
+327,fragments,4.971,4.371,fragments/frag_p38/5_1WBW
+328,fragments,6.182,4.636,fragments/frag_p38/7
+329,fragments,3.734,3.01,fragments/frag_p38/3
+330,fragments,4.785,3.738,fragments/t4lysozyme_uvt/meta methyl ethyl benzene
+331,fragments,4.283,4.033,fragments/t4lysozyme_uvt/methyl benzene
+332,fragments,4.332,4.209,fragments/t4lysozyme_uvt/ethyl benzene
+333,fragments,4.899,3.334,fragments/t4lysozyme_uvt/ortho methyl ethyl benzene
+334,fragments,4.526,3.474,fragments/t4lysozyme_uvt/m-xylene
+335,fragments,4.612,3.407,fragments/t4lysozyme_uvt/p-xylene
+336,fragments,4.535,3.363,fragments/t4lysozyme_uvt/o-xylene
+337,fragments,4.911,4.901,fragments/t4lysozyme_uvt/butyl benzene
+338,fragments,4.772,4.791,fragments/t4lysozyme_uvt/propyl benzene
+339,fragments,4.829,3.959,fragments/t4lysozyme_uvt/para methyl ethyl benzene
+340,fragments,4.351,3.797,fragments/t4lysozyme_uvt/benzene
+341,fragments,5.276,4.739,fragments/t4lysozyme_uvt/isobutyl benzene
+342,fragments,3.501,3.922,fragments/frag_mcl1_noweak/2
+343,fragments,4.02,4.703,fragments/frag_mcl1_noweak/3
+344,fragments,4.347,4.276,fragments/frag_mcl1_noweak/4
+345,fragments,4.165,4.445,fragments/frag_mcl1_noweak/5
+346,fragments,3.573,4.327,fragments/frag_mcl1_noweak/7
+347,fragments,3.904,4.688,fragments/frag_mcl1_noweak/8
+348,fragments,3.633,4.033,fragments/frag_mcl1_noweak/9
+349,fragments,4.049,3.709,fragments/frag_mcl1_noweak/10
+350,fragments,4.109,4.084,fragments/frag_mcl1_noweak/11
+351,fragments,3.927,4.129,fragments/frag_mcl1_noweak/14
+352,fragments,6.201,3.908,fragments/frag_mcl1_noweak/15
+353,fragments,3.238,3.834,fragments/frag_mcl1_noweak/13 flipped
+354,fragments,7.066,7.136,fragments/jak2_set2_extra/13_3E64
+355,fragments,7.307,6.138,fragments/jak2_set2_extra/21
+356,fragments,7.451,5.937,fragments/jak2_set2_extra/20
+357,fragments,6.485,6.127,fragments/jak2_set2_extra/18
+358,fragments,6.925,5.733,fragments/jak2_set2_extra/14
+359,fragments,6.951,5.471,fragments/jak2_set2_extra/12
+360,fragments,7.004,5.43,fragments/jak2_set2_extra/15
+361,fragments,7.438,7.438,fragments/jak2_set2_extra/22 flip
+362,macrocycles,6.864,6.859,macrocycles/3RKZ_lig62to70_alpha05/lignad_63
+363,macrocycles,7.458,9.67,macrocycles/3RKZ_lig62to70_alpha05/ligand_69
+364,macrocycles,6.834,4.909,macrocycles/3RKZ_lig62to70_alpha05/ligand_62
+365,macrocycles,7.065,6.829,macrocycles/3RKZ_lig62to70_alpha05/lignad_65
+366,macrocycles,6.977,6.219,macrocycles/3RKZ_lig62to70_alpha05/lignad_68
+367,macrocycles,7.094,6.542,macrocycles/3RKZ_lig62to70_alpha05/ligand_64
+368,macrocycles,7.324,9.376,macrocycles/3RKZ_lig62to70_alpha05/ligand_70
+369,macrocycles,6.318,5.571,macrocycles/MHT1_lig3_alpha05/5AN26_ligand
+370,macrocycles,6.665,6.292,macrocycles/MHT1_lig3_alpha05/5ANT_A_ligand
+371,macrocycles,6.932,9.538,macrocycles/MHT1_lig3_alpha05/5ANU_ligand
+372,macrocycles,6.8,5.541,macrocycles/2B8V_lig24and25_alpha05/ligand25_S
+373,macrocycles,6.83,4.003,macrocycles/2B8V_lig24and25_alpha05/ligand24_S
+374,macrocycles,8.08,7.624,macrocycles/ck2_custcore_hotlys/ligand_15
+375,macrocycles,7.924,9.596,macrocycles/ck2_custcore_hotlys/ligand_14
+376,macrocycles,7.479,8.228,macrocycles/2E9P_lig4to7_alpha05/ligand_5
+377,macrocycles,6.978,7.558,macrocycles/2E9P_lig4to7_alpha05/ligand_7
+378,macrocycles,6.269,8.007,macrocycles/2E9P_lig4to7_alpha05/ligand_4
+379,macrocycles,7.601,8.161,macrocycles/2E9P_lig4to7_alpha05/ligand_6
+380,macrocycles,7.929,7.514,macrocycles/2Q15_lig17to21_alpha05/ligand_20_S
+381,macrocycles,7.872,7.779,macrocycles/2Q15_lig17to21_alpha05/ligand_21
+382,macrocycles,7.681,7.963,macrocycles/2Q15_lig17to21_alpha05/ligand_18
+383,macrocycles,7.093,7.227,macrocycles/2Q15_lig17to21_alpha05/ligand_17_enu
+384,macrocycles,7.969,8.309,macrocycles/2Q15_lig17to21_alpha05/ligand_19
+385,macrocycles,5.082,5.181,macrocycles/hsp90_3hvd_custcore/lig_3B27
+386,macrocycles,6.589,9.697,macrocycles/hsp90_3hvd_custcore/18 minimized
+387,macrocycles,6.212,7.471,"macrocycles/hsp90_3hvd_custcore/8, 3VHA"
+388,macrocycles,6.477,8.289,macrocycles/hsp90_3hvd_custcore/13
+389,macrocycles,6.554,7.146,macrocycles/hsp90_3hvd_custcore/9
+390,macrocycles,6.36,9.376,"macrocycles/hsp90_3hvd_custcore/16, 3VHD"
+391,macrocycles,6.679,8.974,"macrocycles/hsp90_3hvd_custcore/11, 3VHC"
+392,macrocycles,6.398,8.212,macrocycles/hsp90_3hvd_custcore/12
+393,macrocycles,6.45,6.99,macrocycles/hsp90_3hvd_custcore/7
+394,macrocycles,7.095,9.514,"macrocycles/hsp90_3hvd_custcore/17, top conformer"
+395,scaffold,6.749,9.265,scaffold_hopping/Fxa_2ei8/Edoxaban
+396,scaffold,7.723,8.625,scaffold_hopping/Fxa_2ei8/4d
+397,scaffold,7.706,8.676,scaffold_hopping/Fxa_2ei8/4c
+398,scaffold,6.113,7.698,scaffold_hopping/TPSB2_3v7t/1
+399,scaffold,6.529,7.241,scaffold_hopping/TPSB2_3v7t/2
+400,scaffold,6.089,6.145,scaffold_hopping/Bace1_4zsp/31
+401,scaffold,6.648,5.674,scaffold_hopping/Bace1_4zsp/7
+402,scaffold,6.3,5.762,scaffold_hopping/Bace1_4zsp/6
+403,scaffold,7.674,7.131,scaffold_hopping/EZH2_5ij7_corehop/22
+404,scaffold,7.177,7.558,scaffold_hopping/EZH2_5ij7_corehop/31
+405,scaffold,7.623,7.558,scaffold_hopping/EZH2_5ij7_corehop/29
+406,scaffold,7.617,6.16,scaffold_hopping/EZH2_5ij7_corehop/27
+407,scaffold,7.639,7.15,scaffold_hopping/CHK1_3u9n_corehop/17
+408,scaffold,7.867,7.138,scaffold_hopping/CHK1_3u9n_corehop/1
+409,scaffold,7.463,6.728,scaffold_hopping/CHK1_3u9n_corehop/21
+410,scaffold,7.77,6.776,scaffold_hopping/CHK1_3u9n_corehop/20
+411,scaffold,7.592,6.291,scaffold_hopping/CHK1_3u9n_corehop/19
+412,gpcrs,6.952,8.142,gpcrs/a2a_hip278/4g
+413,gpcrs,7.285,7.841,gpcrs/a2a_hip278/4h
+414,gpcrs,7.341,8.012,gpcrs/a2a_hip278/4jS
+415,gpcrs,7.144,8.494,gpcrs/a2a_hip278/4kU
+416,gpcrs,7.665,8.373,gpcrs/a2a_hip278/4lD
+417,gpcrs,7.383,7.59,gpcrs/a2a_hip278/4i
+418,gpcrs,5.567,6.927,gpcrs/a2a_hip278/4a
+419,gpcrs,6.545,7.329,gpcrs/a2a_hip278/4b D
+420,gpcrs,7.256,8.433,gpcrs/a2a_hip278/4c
+421,gpcrs,6.945,7.731,gpcrs/a2a_hip278/4d
+422,gpcrs,5.924,8.358,gpcrs/a2a_hip278/4o
+423,gpcrs,7.196,8.423,gpcrs/a2a_hip278/4f
+424,gpcrs,7.066,8.885,gpcrs/a2a_hip278/4e D
+425,gpcrs,6.838,7.764,gpcrs/a2a_hip278/4m D
+426,gpcrs,5.558,6.54,gpcrs/a2a_hip278/4q
+427,gpcrs,7.187,8.5,gpcrs/a2a_hip278/4n
+428,gpcrs,7.466,8.435,gpcrs/a2a_hip278/4r U
+429,gpcrs,5.924,8.358,gpcrs/a2a_hip278/4o deprotonated
+430,gpcrs,7.066,8.885,gpcrs/a2a_hip278/4eD deprotonated
+431,gpcrs,7.196,8.423,gpcrs/a2a_hip278/4f deprotonated
+432,gpcrs,7.208,8.079,gpcrs/ox2_hip_custcore/set 1: 1
+433,gpcrs,6.446,7.396,gpcrs/ox2_hip_custcore/set 1: 2
+434,gpcrs,7.025,6.326,gpcrs/ox2_hip_custcore/set 1: 3
+435,gpcrs,6.884,7.803,gpcrs/ox2_hip_custcore/set 1: 4
+436,gpcrs,7.762,8.011,gpcrs/ox2_hip_custcore/set 1: 5
+437,gpcrs,6.7,7.369,gpcrs/ox2_hip_custcore/set 1: 6
+438,gpcrs,8.07,8.52,gpcrs/ox2_hip_custcore/set 1: 7
+439,gpcrs,7.124,7.471,gpcrs/ox2_hip_custcore/set 1: 8
+440,gpcrs,7.226,6.347,gpcrs/ox2_hip_custcore/set 1: 9
+441,gpcrs,6.972,7.592,gpcrs/ox2_hip_custcore/set 1: 10
+442,gpcrs,7.879,8.187,gpcrs/ox2_hip_custcore/set 1: 11
+443,gpcrs,7.221,7.758,gpcrs/ox2_hip_custcore/set 1: 12
+444,gpcrs,7.847,6.603,gpcrs/ox2_hip_custcore/set 1: 13
+445,gpcrs,7.706,8.22,gpcrs/ox2_hip_custcore/set 1: 14
+446,gpcrs,8.02,5.02,gpcrs/ox2_hip_custcore/set 1: 15
+447,gpcrs,6.951,8.059,gpcrs/ox2_hip_custcore/set 1: 16
+448,gpcrs,6.941,5.066,gpcrs/ox2_hip_custcore/set 1: 17
+449,gpcrs,6.687,6.091,gpcrs/ox2_hip_custcore/set 1: 18
+450,gpcrs,7.613,5.53,gpcrs/ox2_hip_custcore/set 1: 19
+451,gpcrs,7.454,7.654,gpcrs/ox2_hip_custcore/set 1: 20
+452,gpcrs,6.625,6.394,gpcrs/ox2_hip_custcore/set 1: 21
+453,gpcrs,7.25,7.669,gpcrs/ox2_hip_custcore/set 1: 22
+454,gpcrs,7.833,7.419,gpcrs/ox2_hip_custcore/set 1: 23
+455,gpcrs,7.746,7.685,gpcrs/ox2_hip_custcore/set 1: 24
+456,gpcrs,7.634,8.167,gpcrs/ox2_hip_custcore/set 1: 25
+457,gpcrs,7.949,8.38,gpcrs/ox2_hip_custcore/set 1: 26
+458,gpcrs,7.678,8.063,gpcrs/ox2_hip_custcore/set 1: 27
+459,gpcrs,6.414,6.927,gpcrs/ox2_hip_custcore/set 2: 1
+460,gpcrs,7.679,6.338,gpcrs/ox2_hip_custcore/set 2: 2
+461,gpcrs,6.997,6.969,gpcrs/ox2_hip_custcore/set 2: 3
+462,gpcrs,6.504,7.15,gpcrs/ox2_hip_custcore/set 2: 4
+463,gpcrs,6.908,7.987,gpcrs/ox2_hip_custcore/set 2: 5 adjust
+464,gpcrs,6.549,7.72,gpcrs/ox2_hip_custcore/set 2: 6
+465,gpcrs,7.147,5.847,gpcrs/ox2_hip_custcore/set 2: 7
+466,gpcrs,7.1,8.063,gpcrs/ox2_hip_custcore/set 2: 8
+467,gpcrs,5.982,7.367,gpcrs/ox2_hip_custcore/set 2: 9
+468,gpcrs,6.439,5.043,gpcrs/ox2_hip_custcore/set 2: 10
+469,gpcrs,6.46,6.971,gpcrs/ox2_hip_custcore/set 2: 11
+470,gpcrs,6.592,7.353,gpcrs/ox2_hip_custcore/set 2: 12
+471,gpcrs,6.866,7.959,gpcrs/ox2_hip_custcore/set 2: 13
+472,gpcrs,7.118,7.914,gpcrs/ox2_hip_custcore/set 2: 14
+473,gpcrs,7.121,7.095,gpcrs/ox2_hip_custcore/set 2: 15
+474,gpcrs,7.934,7.12,gpcrs/ox2_hip_custcore/set 2: 16
+475,gpcrs,6.481,7.348,gpcrs/ox2_hip_custcore/set 2: 17
+476,gpcrs,6.507,6.924,gpcrs/ox2_hip_custcore/set 2: 18
+477,gpcrs,6.354,6.641,gpcrs/ox2_hip_custcore/set 2: 19
+478,gpcrs,7.209,8.128,gpcrs/ox2_hip_custcore/set 2: 20
+479,gpcrs,7.336,7.775,gpcrs/ox2_hip_custcore/set 2: 21
+480,gpcrs,6.61,6.278,gpcrs/ox2_hip_custcore/set 2: 22
+481,gpcrs,7.149,7.745,gpcrs/ox2_hip_custcore/set 2: 23
+482,gpcrs,7.209,7.017,gpcrs/ox2_hip_custcore/set 2: 24
+483,gpcrs,6.489,8.255,gpcrs/p2y1_meta_sub/16
+484,gpcrs,5.251,5.722,gpcrs/p2y1_meta_sub/11a
+485,gpcrs,5.831,6.92,gpcrs/p2y1_meta_sub/6e
+486,gpcrs,5.681,7.511,gpcrs/p2y1_meta_sub/11c
+487,gpcrs,5.741,7.357,gpcrs/p2y1_meta_sub/6b
+488,gpcrs,5.72,7.153,gpcrs/p2y1_meta_sub/1
+489,gpcrs,5.653,6.794,gpcrs/p2y1_meta_sub/6a
+490,gpcrs,5.684,6.866,gpcrs/p2y1_meta_sub/6f
+491,gpcrs,5.534,7.348,gpcrs/p2y1_meta_sub/6h
+492,gpcrs,5.681,6.242,gpcrs/p2y1_meta_sub/6d
+493,gpcrs,6.176,7.538,gpcrs/p2y1_meta_sub/6i
+494,gpcrs,5.605,7.19,gpcrs/p2y1_meta_sub/6g
+495,gpcrs,5.793,6.268,gpcrs/p2y1_meta_sub/6n
+496,gpcrs,5.871,6.321,gpcrs/p2y1_meta_sub/6m
+497,gpcrs,5.811,7.104,gpcrs/p2y1_meta_sub/6p
+498,gpcrs,6.281,7.583,gpcrs/p2y1_meta_sub/6k
+499,gpcrs,5.958,6.216,gpcrs/p2y1_meta_sub/6o
+500,gpcrs,5.774,6.799,gpcrs/p2y1_meta_sub/6q
+501,gpcrs,5.764,7.708,gpcrs/p2y1_meta_sub/6l
+502,gpcrs,6.135,6.53,gpcrs/p2y1_meta_sub/6j
+503,gpcrs,6.088,8.255,gpcrs/p2y1_ortho_sub/16
+504,gpcrs,5.795,7.776,gpcrs/p2y1_ortho_sub/11b
+505,gpcrs,6.181,8.129,gpcrs/p2y1_ortho_sub/17
+506,gpcrs,5.553,6.784,gpcrs/p2y1_ortho_sub/14
+507,gpcrs,5.523,7.142,gpcrs/p2y1_ortho_sub/11e
+508,gpcrs,5.651,7.583,gpcrs/p2y1_ortho_sub/11d
+509,gpcrs,5.903,6.791,gpcrs/p2y1_ortho_sub/11f
+510,gpcrs,6.036,8.187,gpcrs/p2y1_ortho_sub/18
+511,gpcrs,5.431,8.187,gpcrs/p2y1_ortho_sub/12
+512,gpcrs,5.193,5.722,gpcrs/p2y1_ortho_sub/11a
+513,gpcrs,6.087,7.827,gpcrs/p2y1_ortho_sub/19
+514,gpcrs,5.524,7.73,gpcrs/p2y1_ortho_sub/13
+515,janssen,6.649,7.352,janssen_bace/bace_keranen_p2/29
+516,janssen,6.753,7.624,janssen_bace/bace_keranen_p2/30
+517,janssen,7.088,7.624,janssen_bace/bace_keranen_p2/31
+518,janssen,7.257,7.624,janssen_bace/bace_keranen_p2/32
+519,janssen,7.197,7.536,janssen_bace/bace_keranen_p2/33
+520,janssen,7.03,7.47,janssen_bace/bace_keranen_p2/34
+521,janssen,7.34,7.219,janssen_bace/bace_keranen_p2/35
+522,janssen,6.57,7.624,janssen_bace/bace_keranen_p2/36 out
+523,janssen,6.9,7.771,janssen_bace/bace_keranen_p2/37 out
+524,janssen,6.713,7.124,janssen_bace/bace_keranen_p2/39 out
+525,janssen,6.944,7.72,janssen_bace/bace_keranen_p2/38 out
+526,janssen,6.577,7.72,janssen_bace/bace_keranen_p2/28 out
+527,janssen,5.794,4.478,janssen_bace/bace_ciordia_retro/1a
+528,janssen,6.363,6.405,janssen_bace/bace_ciordia_retro/11
+529,janssen,6.516,7.695,janssen_bace/bace_ciordia_retro/12
+530,janssen,6.95,7.097,janssen_bace/bace_ciordia_retro/13
+531,janssen,6.632,7.239,janssen_bace/bace_ciordia_retro/14
+532,janssen,6.887,5.827,janssen_bace/bace_ciordia_retro/15
+533,janssen,7.047,5.194,janssen_bace/bace_ciordia_retro/16
+534,janssen,6.704,7.628,janssen_bace/bace_ciordia_retro/17
+535,janssen,6.721,7.286,janssen_bace/bace_ciordia_retro/18
+536,janssen,6.792,7.294,janssen_bace/bace_ciordia_retro/19
+537,janssen,6.759,7.483,janssen_bace/bace_ciordia_retro/20
+538,janssen,6.717,7.518,janssen_bace/bace_ciordia_retro/21
+539,janssen,6.805,5.598,janssen_bace/bace_ciordia_retro/22
+540,janssen,6.726,7.226,janssen_bace/bace_ciordia_retro/23
+541,janssen,6.864,7.202,janssen_bace/bace_ciordia_retro/24
+542,janssen,6.832,6.528,janssen_bace/bace_ciordia_retro/25
+543,janssen,6.774,7.628,janssen_bace/bace_ciordia_retro/26
+544,janssen,6.444,7.074,janssen_bace/bace_ciordia_retro/27
+545,janssen,6.628,6.621,janssen_bace/bace_ciordia_retro/28
+546,janssen,6.347,6.429,janssen_bace/bace_ciordia_retro/29
+547,janssen,6.698,5.113,janssen_bace/bace_ciordia_retro/30
+548,janssen,6.471,7.016,janssen_bace/bace_ciordia_retro/31
+549,janssen,6.417,5.682,janssen_bace/bace_ciordia_retro/32
+550,janssen,6.218,5.254,janssen_bace/bace_ciordia_retro/33
+551,janssen,6.539,7.543,janssen_bace/bace_ciordia_retro/34
+552,janssen,6.843,7.272,janssen_bace/bace_ciordia_retro/35
+553,janssen,7.065,8.079,janssen_bace/bace_ciordia_retro/36
+554,janssen,6.572,6.954,janssen_bace/bace_ciordia_retro/37
+555,janssen,6.499,6.907,janssen_bace/bace_ciordia_retro/38
+556,janssen,6.343,6.889,janssen_bace/bace_ciordia_retro/39
+557,janssen,6.379,6.363,janssen_bace/bace_ciordia_retro/40
+558,janssen,6.119,6.704,janssen_bace/bace_ciordia_retro/41
+559,janssen,6.595,5.113,janssen_bace/bace_ciordia_retro/30_protonated
+560,janssen,6.503,5.733,janssen_bace/bace_p3_arg368_in/8a
+561,janssen,6.939,6.265,janssen_bace/bace_p3_arg368_in/8b
+562,janssen,7.097,6.114,janssen_bace/bace_p3_arg368_in/8c
+563,janssen,6.879,6.144,janssen_bace/bace_p3_arg368_in/8d
+564,janssen,6.998,6.195,janssen_bace/bace_p3_arg368_in/8e
+565,janssen,7.228,5.492,janssen_bace/bace_p3_arg368_in/8f
+566,janssen,6.686,7.62,janssen_bace/bace_p3_arg368_in/8g
+567,janssen,6.179,8.052,janssen_bace/bace_p3_arg368_in/17a
+568,janssen,6.69,8.524,janssen_bace/bace_p3_arg368_in/17b
+569,janssen,6.929,8.644,janssen_bace/bace_p3_arg368_in/17c
+570,janssen,6.685,8.383,janssen_bace/bace_p3_arg368_in/17d
+571,janssen,6.847,8.795,janssen_bace/bace_p3_arg368_in/17e
+572,janssen,7.107,8.564,janssen_bace/bace_p3_arg368_in/17f
+573,janssen,6.521,8.182,janssen_bace/bace_p3_arg368_in/17g
+574,janssen,5.878,6.737,janssen_bace/bace_p3_arg368_in/27a
+575,janssen,6.409,7.339,janssen_bace/bace_p3_arg368_in/27b
+576,janssen,6.733,7.369,janssen_bace/bace_p3_arg368_in/27c
+577,janssen,6.348,6.827,janssen_bace/bace_p3_arg368_in/27d
+578,janssen,6.494,6.887,janssen_bace/bace_p3_arg368_in/27e
+579,janssen,6.941,6.697,janssen_bace/bace_p3_arg368_in/27f
+580,janssen,6.229,9.016,janssen_bace/bace_p3_arg368_in/27g
+581,janssen,6.995,6.02,janssen_bace/bace_ciordia_prospective/spiro16
+582,janssen,6.612,5.711,janssen_bace/bace_ciordia_prospective/spiro5
+583,janssen,6.273,5.174,janssen_bace/bace_ciordia_prospective/spiro2
+584,janssen,7.044,6.255,janssen_bace/bace_ciordia_prospective/spiro10
+585,janssen,6.991,6.609,janssen_bace/bace_ciordia_prospective/spiro3
+586,janssen,6.955,7.013,janssen_bace/bace_ciordia_prospective/spiro6
+587,janssen,6.634,5.608,janssen_bace/bace_ciordia_prospective/spiro4
+588,janssen,6.667,5.534,janssen_bace/bace_ciordia_prospective/spiro1
+589,janssen,6.896,6.66,janssen_bace/bace_ciordia_prospective/spiro15
+590,mcs,7.51,8.734,mcs_docking/renin_customcore/b1i5k_xray
+591,mcs,7.18,8.431,mcs_docking/renin_customcore/b1i5j
+592,mcs,7.047,8.078,mcs_docking/renin_customcore/b1i2n
+593,mcs,7.161,8.431,mcs_docking/renin_customcore/b1i5i
+594,mcs,6.919,7.952,mcs_docking/renin_customcore/b1i5h
+595,mcs,7.024,7.104,mcs_docking/renin_customcore/b1i5l
+596,mcs,6.65,7.538,mcs_docking/renin_customcore/b1i5n
+597,mcs,6.484,7.069,mcs_docking/renin_customcore/b1a2m
+598,mcs,7.084,7.775,mcs_docking/renin_customcore/b1i2o
+599,mcs,7.398,7.386,mcs_docking/renin_customcore/b1i5o
+600,mcs,7.246,6.469,mcs_docking/renin_customcore/b1i4i
+601,mcs,6.829,7.498,mcs_docking/renin_customcore/b1i4e
+602,mcs,6.989,6.148,mcs_docking/renin_customcore/b1i4g
+603,mcs,6.385,5.442,mcs_docking/renin_customcore/b1i1
+604,mcs,6.623,6.402,mcs_docking/renin_customcore/b1i2a
+605,mcs,6.836,7.708,mcs_docking/renin_customcore/b1i2e
+606,mcs,7.16,7.222,mcs_docking/renin_customcore/b1i2i
+607,mcs,7.076,8.334,mcs_docking/renin_customcore/b1i2j
+608,mcs,7.266,8.734,mcs_docking/renin_customcore/b1i5c
+609,mcs,7.074,5.893,mcs_docking/renin_customcore/b1i5b
+610,mcs,7.019,7.827,mcs_docking/renin_customcore/b1i2k
+611,mcs,6.797,7.229,mcs_docking/renin_customcore/b1i2h
+612,mcs,6.767,6.136,mcs_docking/renin_customcore/b1i2g
+613,mcs,6.743,6.175,mcs_docking/renin_customcore/b1i4b
+614,mcs,7.018,7.65,mcs_docking/renin_customcore/b1i5a
+615,mcs,6.741,6.192,mcs_docking/renin_customcore/b1i2d
+616,mcs,6.534,5.325,mcs_docking/renin_customcore/b1i4a
+617,mcs,6.832,8.254,mcs_docking/renin_customcore/b1i5d
+618,mcs,7.433,5.066,mcs_docking/renin_customcore/b1i2c
+619,mcs,6.935,5.175,mcs_docking/hne/6
+620,mcs,6.76,7.599,mcs_docking/hne/14
+621,mcs,6.681,9.036,mcs_docking/hne/15
+622,mcs,6.843,8.712,mcs_docking/hne/16
+623,mcs,6.685,8.4,mcs_docking/hne/17
+624,mcs,6.776,7.917,mcs_docking/hne/18
+625,mcs,6.816,8.49,mcs_docking/hne/19
+626,mcs,7.088,7.73,mcs_docking/hne/20
+627,mcs,6.994,9.036,mcs_docking/hne/21
+628,mcs,6.767,8.361,mcs_docking/hne/22
+629,mcs,6.758,7.632,mcs_docking/hne/23
+630,mcs,6.839,8.831,mcs_docking/hne/25
+631,mcs,7.179,9.259,mcs_docking/hne/26
+632,mcs,7.36,10.662,mcs_docking/hne/27
+633,mcs,6.911,9.304,mcs_docking/hne/28
+634,mcs,6.887,10.228,mcs_docking/hne/29
+635,mcs,7.106,9.64,mcs_docking/hne/30
+636,mcs,7.03,9.036,mcs_docking/hne/21 neutral
+637,mcs,6.816,8.49,mcs_docking/hne/19 neutral
+638,mcs,6.843,8.712,mcs_docking/hne/16 neutral
+639,misc,6.058,7.571,misc/hfaah/6MRG ligand
+640,misc,6.408,7.8,misc/hfaah/fig 3
+641,misc,5.852,6.377,misc/hfaah/2
+642,misc,6.102,8.334,misc/hfaah/4
+643,misc,5.916,7.669,misc/hfaah/6
+644,misc,6.581,7.776,misc/hfaah/9
+645,misc,6.128,8.921,misc/hfaah/11
+646,misc,6.487,8.129,misc/hfaah/12
+647,misc,6.069,6.322,misc/hfaah/15
+648,misc,5.894,5.771,misc/hfaah/14
+649,misc,5.972,5.867,misc/hfaah/19
+650,misc,5.974,5.02,misc/hfaah/20
+651,misc,6.077,7.339,misc/hfaah/22
+652,misc,6.682,7.855,misc/hfaah/23
+653,misc,6.32,8.557,misc/hfaah/24
+654,misc,6.279,8.859,misc/hfaah/25
+655,misc,6.232,7.855,misc/hfaah/26
+656,misc,6.358,8.233,misc/hfaah/27
+657,misc,6.321,8.529,misc/hfaah/28
+658,misc,6.159,7.952,misc/hfaah/29
+659,misc,6.513,7.288,misc/hfaah/30
+660,misc,6.238,8.309,misc/hfaah/31
+661,misc,6.401,7.165,misc/hfaah/33 (Saha 2018)
+662,misc,6.601,7.885,misc/hfaah/39
+663,misc,8.008,8.654,misc/hiv_prot_ekegren/1
+664,misc,8.139,7.73,misc/hiv_prot_ekegren/9
+665,misc,8.106,7.952,misc/hiv_prot_ekegren/10
+666,misc,8.042,8.334,misc/hiv_prot_ekegren/11 (2cen)
+667,misc,8.025,8.292,misc/hiv_prot_ekegren/12
+668,misc,7.991,7.99,misc/hiv_prot_ekegren/13
+669,misc,8.045,7.855,misc/hiv_prot_ekegren/14
+670,misc,7.986,8.078,misc/hiv_prot_ekegren/15
+671,misc,7.989,8.14,misc/hiv_prot_ekegren/16
+672,misc,8.067,8.454,misc/hiv_prot_ekegren/17
+673,misc,7.981,8.712,misc/hiv_prot_ekegren/18
+674,misc,7.964,7.99,misc/hiv_prot_ekegren/19
+675,misc,8.192,8.49,misc/hiv_prot_ekegren/20
+676,misc,6.642,7.236,misc/cdk8_koehler/12
+677,misc,6.231,8.24,misc/cdk8_koehler/13
+678,misc,6.742,8.118,misc/cdk8_koehler/14
+679,misc,6.939,7.153,misc/cdk8_koehler/15
+680,misc,6.563,7.827,misc/cdk8_koehler/16
+681,misc,6.609,7.65,misc/cdk8_koehler/17
+682,misc,6.65,7.525,misc/cdk8_koehler/19
+683,misc,6.836,7.568,misc/cdk8_koehler/20
+684,misc,7.027,7.258,misc/cdk8_koehler/21
+685,misc,7.008,8.309,misc/cdk8_koehler/22
+686,misc,6.956,4.657,misc/galectin3_extra/18a
+687,misc,7.075,5.49,misc/galectin3_extra/18b
+688,misc,6.945,4.978,misc/galectin3_extra/18d
+689,misc,6.974,4.764,misc/galectin3_extra/18e
+690,misc,6.958,4.072,misc/galectin3_extra/18f
+691,misc,7.008,4.764,misc/galectin3_extra/18g
+692,misc,7.573,4.415,misc/galectin3_extra/18h
+693,misc,7.497,3.537,misc/galectin3_extra/18i
+694,misc,5.539,3.021,misc/galectin3_extra/17m
+695,misc,5.804,3.672,misc/galectin3_extra/17q
+696,misc,5.565,3.495,misc/galectin3_extra/17r
+697,misc,5.524,3.616,misc/galectin3_extra/17n
+698,misc,5.886,3.714,misc/galectin3_extra/17p
+699,misc,5.973,3.76,misc/galectin3_extra/17o
+700,misc,6.428,4.843,misc/galectin3_extra/17f
+701,misc,6.577,5.076,misc/galectin3_extra/17e
+702,misc,6.65,5.305,misc/galectin3_extra/17g
+703,misc,5.91,4.072,misc/galectin3_extra/17a
+704,misc,6.298,4.74,misc/galectin3_extra/17j
+705,misc,6.338,4.374,misc/galectin3_extra/17l
+706,misc,6.337,4.676,misc/galectin3_extra/17c
+707,misc,6.535,4.873,misc/galectin3_extra/17k
+708,misc,6.166,4.052,misc/galectin3_extra/17b
+709,misc,6.304,4.657,misc/galectin3_extra/17h flip
+710,misc,6.277,4.374,misc/galectin3_extra/17i
+711,misc,6.246,4.527,misc/galectin3_extra/17d
+712,misc,4.454,5.658,misc/btk_extra_flip/2
+713,misc,5.959,6.686,misc/btk_extra_flip/7
+714,misc,6.032,7.07,misc/btk_extra_flip/8
+715,misc,5.395,6.131,misc/btk_extra_flip/9 flip
+716,misc,6.725,7.999,misc/btk_extra_flip/10
+717,misc,6.928,8.481,misc/btk_extra_flip/11
+718,opls,7.237,-0.302,opls_stress/cr_bace1/4
+719,opls,7.25,0.729,opls_stress/cr_bace1/1
+720,opls,7.297,0.655,opls_stress/cr_bace1/3
+721,opls,7.307,-0.67,opls_stress/cr_bace1/7
+722,opls,7.452,-0.523,opls_stress/cr_bace1/9R
+723,opls,7.037,-0.67,opls_stress/cr_bace1/5
+724,opls,7.208,0.213,opls_stress/cr_bace1/10
+725,opls,7.438,1.317,opls_stress/cr_bace1/6
+726,opls,7.174,0.14,opls_stress/cr_bace1/2
+727,opls,7.237,-1.0,opls_stress/cr_bace1/9S
+728,opls,7.503,0.434,opls_stress/cr_bace1/8
+729,opls,7.071,5.122,opls_stress/hc_bace1/22256_26_0_ligand
+730,opls,6.815,5.968,opls_stress/hc_bace1/22250_20_0_ligand
+731,opls,7.143,6.925,opls_stress/hc_bace1/22251_21_0_ligand
+732,opls,7.18,7.234,opls_stress/hc_bace1/19677_19_0_ligand
+733,opls,6.743,6.969,opls_stress/hc_bace1/22254_24_0_ligand
+734,opls,7.175,7.367,opls_stress/hc_bace1/22252_22_0_ligand
+735,opls,7.314,6.439,opls_stress/hc_bace1/22253_23_0_ligand
+736,opls,7.475,8.515,opls_stress/fxa_yoshikawa_set/5f
+737,opls,7.502,7.486,opls_stress/fxa_yoshikawa_set/5g
+738,opls,7.136,6.085,opls_stress/fxa_yoshikawa_set/5e
+739,opls,7.574,7.952,opls_stress/fxa_yoshikawa_set/5i
+740,opls,7.26,5.419,opls_stress/fxa_yoshikawa_set/5b
+741,opls,7.19,9.404,opls_stress/fxa_yoshikawa_set/5h
+742,opls,7.569,8.277,opls_stress/fxa_yoshikawa_set/5a
+743,opls,7.366,8.343,opls_stress/fxa_yoshikawa_set/5k
+744,opls,7.521,8.421,opls_stress/fxa_yoshikawa_set/5d
+745,opls,7.506,8.557,opls_stress/fxa_yoshikawa_set/5c
+746,opls,7.23,8.22,opls_stress/fxa_yoshikawa_set/8e
+747,opls,6.88,5.982,opls_stress/fxa_yoshikawa_set/8b
+748,opls,7.278,5.661,opls_stress/fxa_yoshikawa_set/8d
+749,opls,7.293,5.744,opls_stress/fxa_yoshikawa_set/8c
+750,opls,7.015,7.288,opls_stress/fxa_yoshikawa_set/8g
+751,opls,7.188,8.673,opls_stress/fxa_yoshikawa_set/A_cor
+752,opls,6.9,7.19,opls_stress/fxa_yoshikawa_set/8f
+753,opls,6.936,6.948,opls_stress/fxa_yoshikawa_set/8a
+754,opls,7.254,8.889,opls_stress/fxa_yoshikawa_set/8h
+755,opls,7.161,7.339,opls_stress/fxa_yoshikawa_set/8i
+756,opls,7.344,8.49,opls_stress/fxa_yoshikawa_set/8j
+757,opls,7.613,8.352,opls_stress/fxa_yoshikawa_set/8k
+758,opls,7.542,8.277,opls_stress/fxa_yoshikawa_set/8l
+759,opls,7.657,8.712,opls_stress/fxa_yoshikawa_set/8m
+760,opls,8.351,7.461,opls_stress/fxa_yoshikawa_set/8n
+761,opls,6.882,7.855,opls_stress/fxa_yoshikawa_set/8o
+762,opls,7.184,8.529,opls_stress/fxa_yoshikawa_set/8p
+763,opls,7.287,-0.927,opls_stress/cr_bace2/22
+764,opls,7.747,0.25,opls_stress/cr_bace2/16
+765,opls,7.73,0.913,opls_stress/cr_bace2/11
+766,opls,7.797,-1.0,opls_stress/cr_bace2/21
+767,opls,7.721,-1.0,opls_stress/cr_bace2/24
+768,opls,7.745,0.397,opls_stress/cr_bace2/12
+769,opls,7.767,0.692,opls_stress/cr_bace2/20
+770,opls,7.85,0.839,opls_stress/cr_bace2/19
+771,opls,7.859,0.913,opls_stress/cr_bace2/13
+772,opls,7.632,-1.0,opls_stress/cr_bace2/23
+773,opls,7.815,0.545,opls_stress/cr_bace2/15
+774,opls,7.798,0.765,opls_stress/cr_bace2/14
+775,opls,7.349,7.749,opls_stress/fxa_set3/20814_6
+776,opls,7.713,8.228,opls_stress/fxa_set3/20539_10
+777,opls,7.604,7.97,opls_stress/fxa_set3/20820_11
+778,opls,7.983,8.228,opls_stress/fxa_set3/20819_8
+779,opls,7.495,4.806,opls_stress/fxa_set6/21083
+780,opls,7.282,5.497,opls_stress/fxa_set6/21084
+781,opls,7.056,5.927,opls_stress/fxa_set6/21085
+782,opls,7.657,8.309,opls_stress/fxa_set6/21086
+783,opls,7.683,8.406,opls_stress/fxa_set6/20524_2j95_cys
+784,opls,7.671,8.708,opls_stress/fxa_set6/21087
+785,opls,7.848,8.029,opls_stress/fxa_set5/20705_cys
+786,opls,7.823,7.926,opls_stress/fxa_set5/21331
+787,opls,7.206,4.997,opls_stress/hc_bace2/37_0_ligand
+788,opls,7.289,5.858,opls_stress/hc_bace2/35_0_ligand
+789,opls,7.327,6.601,opls_stress/hc_bace2/39_0_ligand
+790,opls,6.982,5.887,opls_stress/hc_bace2/34_0_ligand
+791,opls,6.745,5.887,opls_stress/hc_bace2/40_0_ligand
+792,opls,7.244,6.027,opls_stress/hc_bace2/30_0_ligand
+793,opls,7.253,6.086,opls_stress/hc_bace2/33_0_ligand
+794,opls,7.179,5.998,opls_stress/hc_bace2/41_0_ligand
+795,opls,6.512,6.123,opls_stress/hc_bace2/42_0_ligand
+796,opls,7.357,6.152,opls_stress/hc_bace2/44_0_ligand
+797,opls,7.389,7.05,opls_stress/fxa_set4/1s
+798,opls,7.304,6.793,opls_stress/fxa_set4/21080_1j
+799,opls,7.238,6.55,opls_stress/fxa_set4/21030_1o
+800,opls,7.223,6.954,opls_stress/fxa_set4/21028_1r
+801,opls,7.532,5.38,opls_stress/fxa_set4/21027_1q
+802,opls,7.557,6.77,opls_stress/fxa_set4/1t
+803,opls,8.014,7.823,opls_stress/fxa_set4/16352_1e
+804,opls,6.822,5.541,opls_stress/fxa_set4/21081_1k
+805,opls,6.774,6.108,opls_stress/fxa_set4/21031_1p
+806,opls,7.388,7.33,opls_stress/fxa_set4/16353_1d
+807,opls,7.223,5.438,opls_stress/fxa_set4/21082_1l
+808,opls,8.118,9.196,opls_stress/chk1_set2/17374_cys
+809,opls,7.933,8.375,opls_stress/chk1_set2/17509
+810,opls,6.432,8.008,opls_stress/chk1_set3/23882
+811,opls,6.684,8.163,opls_stress/chk1_set3/23703_cys
+812,opls,6.406,8.406,opls_stress/chk1_set3/23864
+813,opls,6.197,8.23,opls_stress/chk1_set3/23863
+814,opls,8.382,7.929,opls_stress/chk1_set7/19997
+815,opls,8.411,6.582,opls_stress/chk1_set7/19998
+816,opls,8.426,7.894,opls_stress/chk1_set7/19934_cys
+817,opls,7.869,7.131,opls_stress/chk1_set6/23708_cys
+818,opls,7.122,4.725,opls_stress/chk1_set6/13
+819,opls,6.86,5.527,opls_stress/chk1_set6/15
+820,opls,6.138,8.309,opls_stress/chk1_set4/23704_cys
+821,opls,6.245,7.967,opls_stress/chk1_set4/23873
+822,opls,7.145,8.054,opls_stress/chk1_set5/20315
+823,opls,7.302,8.531,opls_stress/chk1_set5/19939_cys
+824,opls,7.548,9.009,opls_stress/chk1_set5/19940
+825,opls,7.266,5.796,opls_stress/pb_bace3/22316
+826,opls,7.082,5.521,opls_stress/pb_bace3/22320
+827,opls,7.155,5.034,opls_stress/pb_bace3/22319
+828,opls,6.933,6.334,opls_stress/pb_bace3/19678_cys
+829,opls,6.65,7.753,opls_stress/chk1_set1/19967
+830,opls,6.575,8.163,opls_stress/chk1_set1/17353_cys
+831,opls,6.429,7.61,opls_stress/chk1_set1/19971
+832,merck,7.164,5.886,merck/pfkfb3_automap/43
+833,merck,7.01,6.769,merck/pfkfb3_automap/30 flip b
+834,merck,7.396,6.982,merck/pfkfb3_automap/65
+835,merck,6.832,5.839,merck/pfkfb3_automap/49
+836,merck,7.446,6.528,merck/pfkfb3_automap/24
+837,merck,7.356,7.538,merck/pfkfb3_automap/67
+838,merck,7.577,5.66,merck/pfkfb3_automap/62 flip
+839,merck,7.683,7.776,merck/pfkfb3_automap/56
+840,merck,7.109,5.972,merck/pfkfb3_automap/59
+841,merck,7.12,6.446,merck/pfkfb3_automap/38
+842,merck,7.233,6.831,merck/pfkfb3_automap/31
+843,merck,7.003,5.892,merck/pfkfb3_automap/48
+844,merck,7.25,6.721,merck/pfkfb3_automap/58
+845,merck,6.914,5.437,merck/pfkfb3_automap/41
+846,merck,7.612,7.099,merck/pfkfb3_automap/29
+847,merck,7.332,6.02,merck/pfkfb3_automap/54
+848,merck,7.166,6.133,merck/pfkfb3_automap/47
+849,merck,6.948,6.748,merck/pfkfb3_automap/26
+850,merck,7.732,7.827,merck/pfkfb3_automap/55
+851,merck,7.04,6.267,merck/pfkfb3_automap/20
+852,merck,7.272,7.708,merck/pfkfb3_automap/57
+853,merck,7.03,6.231,merck/pfkfb3_automap/42
+854,merck,7.369,7.461,merck/pfkfb3_automap/35
+855,merck,7.236,7.321,merck/pfkfb3_automap/44
+856,merck,7.549,6.301,merck/pfkfb3_automap/63
+857,merck,7.512,7.885,merck/pfkfb3_automap/69
+858,merck,7.373,7.65,merck/pfkfb3_automap/52
+859,merck,7.155,5.557,merck/pfkfb3_automap/19
+860,merck,7.382,7.196,merck/pfkfb3_automap/68
+861,merck,7.415,6.334,merck/pfkfb3_automap/33
+862,merck,7.235,7.583,merck/pfkfb3_automap/70
+863,merck,7.447,5.15,merck/pfkfb3_automap/53
+864,merck,7.74,6.934,merck/pfkfb3_automap/64
+865,merck,6.841,5.297,merck/pfkfb3_automap/39
+866,merck,7.335,7.357,merck/pfkfb3_automap/37
+867,merck,7.202,5.824,merck/pfkfb3_automap/23
+868,merck,7.184,5.993,merck/pfkfb3_automap/60 adjust
+869,merck,7.002,7.339,merck/pfkfb3_automap/34
+870,merck,7.755,5.476,merck/pfkfb3_automap/36
+871,merck,7.389,5.784,merck/pfkfb3_automap/46
+872,merck,5.77,7.177,merck/shp2/SHP099-1/Example 7
+873,merck,6.204,6.799,merck/shp2/Example 22
+874,merck,5.509,5.61,merck/shp2/Example 29
+875,merck,6.207,4.676,merck/shp2/11
+876,merck,4.622,4.285,merck/shp2/4
+877,merck,5.764,6.091,merck/shp2/Example 2
+878,merck,5.2,7.196,merck/shp2/Example 14
+879,merck,6.936,6.593,merck/shp2/Example 26
+880,merck,4.824,4.94,merck/shp2/SHP836-2
+881,merck,5.774,6.674,merck/shp2/Example 6
+882,merck,5.75,6.615,merck/shp2/Example 1
+883,merck,4.278,4.02,merck/shp2/3
+884,merck,5.1,6.472,merck/shp2/Example 9
+885,merck,5.481,7.147,merck/shp2/Example 8
+886,merck,6.384,5.208,merck/shp2/7
+887,merck,6.087,6.68,merck/shp2/Example 24
+888,merck,5.454,6.224,merck/shp2/Example 28
+889,merck,5.248,5.265,merck/shp2/10
+890,merck,6.61,6.528,merck/shp2/Example 25
+891,merck,5.129,6.269,merck/shp2/Example 27
+892,merck,5.648,5.909,merck/shp2/6
+893,merck,5.792,6.739,merck/shp2/Example 30
+894,merck,6.103,5.566,merck/shp2/Example 5
+895,merck,5.233,6.035,merck/shp2/Example 4
+896,merck,6.294,6.432,merck/shp2/Example 23
+897,merck,5.232,6.046,merck/shp2/Example 3
+898,merck,7.694,6.726,merck/cmet/CHEMBL3402753_200
+899,merck,7.551,5.49,merck/cmet/CHEMBL3402747_3400
+900,merck,6.868,6.549,merck/cmet/CHEMBL3402744_300
+901,merck,7.115,6.726,merck/cmet/CHEMBL3402745_200
+902,merck,7.658,6.423,merck/cmet/CHEMBL3402750_400
+903,merck,7.79,7.406,merck/cmet/CHEMBL3402743_42
+904,merck,7.643,4.541,merck/cmet/CHEMBL3402752_30000
+905,merck,7.521,5.398,merck/cmet/CHEMBL3402755_4200
+906,merck,7.008,6.326,merck/cmet/CHEMBL3402749_500
+907,merck,7.445,7.99,merck/cmet/CHEMBL3402765_11-charged-pKa-8.1
+908,merck,6.559,7.669,merck/cmet/CHEMBL3402742_23
+909,merck,7.748,7.427,merck/cmet/CHEMBL3402754_40
+910,merck,7.639,5.297,merck/cmet/CHEMBL3402748_5300
+911,merck,6.54,6.423,merck/cmet/CHEMBL3402741_400
+912,merck,6.124,7.074,merck/cmet/CHEMBL3402763_90
+913,merck,7.351,7.074,merck/cmet/CHEMBL3402764_90
+914,merck,7.657,5.7,merck/cmet/CHEMBL3402751_2100
+915,merck,6.856,8.603,merck/cmet/CHEMBL3402756_2.7 redocked
+916,merck,7.137,9.036,merck/cmet/CHEMBL3402762_1 redocked
+917,merck,7.131,9.036,merck/cmet/CHEMBL3402760_1 redocked
+918,merck,7.005,8.22,merck/cmet/CHEMBL3402757_6.5 redocked
+919,merck,7.126,9.036,merck/cmet/CHEMBL3402761_1 redocked
+920,merck,7.171,8.032,merck/cmet/CHEMBL3402758_10 redocked
+921,merck,6.84,8.277,merck/cmet/CHEMBL3402759_5.7 redocked
+922,merck,7.231,7.847,merck/eg5_extraprotomers/CHEMBL1078774
+923,merck,7.187,7.798,merck/eg5_extraprotomers/CHEMBL1093087
+924,merck,6.978,8.304,merck/eg5_extraprotomers/CHEMBL1082249
+925,merck,6.165,6.204,merck/eg5_extraprotomers/CHEMBL1089393
+926,merck,7.069,7.543,merck/eg5_extraprotomers/CHEMBL1078691
+927,merck,6.884,7.308,merck/eg5_extraprotomers/CHEMBL1086409
+928,merck,6.738,8.608,merck/eg5_extraprotomers/CHEMBL1082248
+929,merck,7.13,8.236,merck/eg5_extraprotomers/CHEMBL1084678
+930,merck,6.691,6.99,merck/eg5_extraprotomers/CHEMBL1084115
+931,merck,7.297,7.258,merck/eg5_extraprotomers/CHEMBL1084431
+932,merck,6.945,8.038,merck/eg5_extraprotomers/CHEMBL1085895
+933,merck,7.018,8.481,merck/eg5_extraprotomers/CHEMBL1084677
+934,merck,6.867,8.383,merck/eg5_extraprotomers/CHEMBL1077227
+935,merck,6.971,8.481,merck/eg5_extraprotomers/CHEMBL1086410
+936,merck,6.884,8.481,merck/eg5_extraprotomers/CHEMBL1083517
+937,merck,6.971,8.785,merck/eg5_extraprotomers/CHEMBL1096003
+938,merck,6.951,8.177,merck/eg5_extraprotomers/CHEMBL1077204
+939,merck,6.629,8.038,merck/eg5_extraprotomers/CHEMBL1083836
+940,merck,6.606,7.775,merck/eg5_extraprotomers/CHEMBL1085666
+941,merck,7.067,8.383,merck/eg5_extraprotomers/CHEMBL1085692
+942,merck,6.649,8.785,merck/eg5_extraprotomers/CHEMBL1084143
+943,merck,6.873,8.236,merck/eg5_extraprotomers/CHEMBL1096002
+944,merck,6.86,6.99,merck/eg5_extraprotomers/CHEMBL1089056
+945,merck,7.106,8.304,merck/eg5_extraprotomers/CHEMBL1093088
+946,merck,6.955,7.932,merck/eg5_extraprotomers/CHEMBL1084676
+947,merck,7.254,7.798,merck/eg5_extraprotomers/CHEMBL1084935
+948,merck,6.635,7.678,merck/eg5_extraprotomers/CHEMBL1078998
+949,merck,6.03,6.44,merck/eg5_extraprotomers/CHEMBL1088740
+950,merck,6.924,8.785,merck/eg5_extraprotomers/CHEMBL1084143_1
+951,merck,7.129,8.785,merck/eg5_extraprotomers/CHEMBL1096003_1
+952,merck,6.749,8.236,merck/eg5_extraprotomers/CHEMBL1096002_1
+953,merck,7.007,7.932,merck/eg5_extraprotomers/CHEMBL1084676_1
+954,merck,7.077,8.481,merck/eg5_extraprotomers/CHEMBL1084677_1
+955,merck,7.238,7.798,merck/eg5_extraprotomers/CHEMBL1084935_1
+956,merck,7.768,7.654,merck/syk_4puz_fullmap/CHEMBL3265014
+957,merck,8.342,7.667,merck/syk_4puz_fullmap/CHEMBL3265036
+958,merck,8.247,8.098,merck/syk_4puz_fullmap/CHEMBL3265020
+959,merck,8.136,7.71,merck/syk_4puz_fullmap/CHEMBL3265023
+960,merck,7.509,8.712,merck/syk_4puz_fullmap/CHEMBL3265033
+961,merck,7.483,7.602,merck/syk_4puz_fullmap/CHEMBL3265027
+962,merck,7.283,8.103,merck/syk_4puz_fullmap/CHEMBL3265028
+963,merck,7.685,8.146,merck/syk_4puz_fullmap/CHEMBL3265032
+964,merck,7.864,8.889,merck/syk_4puz_fullmap/CHEMBL3265031
+965,merck,8.01,9.394,merck/syk_4puz_fullmap/CHEMBL3265037
+966,merck,8.301,8.361,merck/syk_4puz_fullmap/CHEMBL3265026
+967,merck,7.836,7.761,merck/syk_4puz_fullmap/CHEMBL3265012
+968,merck,7.73,8.187,merck/syk_4puz_fullmap/CHEMBL3265029
+969,merck,7.451,8.151,merck/syk_4puz_fullmap/CHEMBL3265035
+970,merck,8.126,8.673,merck/syk_4puz_fullmap/CHEMBL3265024
+971,merck,8.423,8.233,merck/syk_4puz_fullmap/CHEMBL3265018
+972,merck,7.985,7.2,merck/syk_4puz_fullmap/CHEMBL3265008
+973,merck,8.521,8.603,merck/syk_4puz_fullmap/CHEMBL3265016
+974,merck,8.33,7.506,merck/syk_4puz_fullmap/CHEMBL3265025 flip
+975,merck,7.661,7.222,merck/syk_4puz_fullmap/CHEMBL3265013
+976,merck,7.762,7.783,merck/syk_4puz_fullmap/CHEMBL3259820
+977,merck,7.995,7.328,merck/syk_4puz_fullmap/CHEMBL3265006
+978,merck,7.841,8.442,merck/syk_4puz_fullmap/CHEMBL3265030_n
+979,merck,8.397,7.942,merck/syk_4puz_fullmap/CHEMBL3265022
+980,merck,8.239,7.931,merck/syk_4puz_fullmap/CHEMBL3265019
+981,merck,8.059,7.578,merck/syk_4puz_fullmap/CHEMBL3265009
+982,merck,8.201,8.015,merck/syk_4puz_fullmap/CHEMBL3265021
+983,merck,7.815,7.597,merck/syk_4puz_fullmap/CHEMBL3265005
+984,merck,8.357,8.454,merck/syk_4puz_fullmap/CHEMBL3265017
+985,merck,7.675,7.457,merck/syk_4puz_fullmap/CHEMBL3265010
+986,merck,7.632,8.454,merck/syk_4puz_fullmap/CHEMBL3265034
+987,merck,8.038,6.357,merck/syk_4puz_fullmap/CHEMBL3265011 flip
+988,merck,8.022,6.975,merck/syk_4puz_fullmap/CHEMBL3265015 flip
+989,merck,7.597,7.813,merck/syk_4puz_fullmap/CHEMBL3265002
+990,merck,7.668,8.619,merck/syk_4puz_fullmap/docked CHEMBL3264998
+991,merck,7.478,8.083,merck/syk_4puz_fullmap/CHEMBL3264997
+992,merck,7.716,7.216,merck/syk_4puz_fullmap/docked CHEMBL3264994
+993,merck,7.558,9.112,merck/syk_4puz_fullmap/CHEMBL3264995
+994,merck,7.693,7.99,merck/syk_4puz_fullmap/docked CHEMBL3265004
+995,merck,7.688,8.859,merck/syk_4puz_fullmap/CHEMBL3265001
+996,merck,7.435,7.849,merck/syk_4puz_fullmap/CHEMBL3264996
+997,merck,7.561,8.4,merck/syk_4puz_fullmap/docked CHEMBL3264999 adjust
+998,merck,7.688,8.692,merck/syk_4puz_fullmap/redocked CHEMBL3265000 ground state
+999,merck,7.672,8.692,merck/syk_4puz_fullmap/redocked CHEMBL3265000
+1000,merck,7.718,7.963,merck/syk_4puz_fullmap/CHEMBL3265003 tautomer 1
+1001,merck,7.69,7.963,merck/syk_4puz_fullmap/CHEMBL3265003 tautomer 2
+1002,merck,7.256,7.917,merck/hif2a_automap/338
+1003,merck,6.305,6.402,merck/hif2a_automap/43
+1004,merck,7.257,7.45,merck/hif2a_automap/235
+1005,merck,7.275,7.615,merck/hif2a_automap/234
+1006,merck,6.646,7.776,merck/hif2a_automap/30
+1007,merck,7.649,8.334,merck/hif2a_automap/1
+1008,merck,7.233,7.028,merck/hif2a_automap/237
+1009,merck,7.552,7.917,merck/hif2a_automap/227
+1010,merck,7.774,7.752,merck/hif2a_automap/266
+1011,merck,7.59,7.45,merck/hif2a_automap/206
+1012,merck,7.019,7.486,merck/hif2a_automap/67
+1013,merck,7.184,7.165,merck/hif2a_automap/156
+1014,merck,6.581,6.507,merck/hif2a_automap/31
+1015,merck,7.065,8.032,merck/hif2a_automap/289
+1016,merck,7.46,7.438,merck/hif2a_automap/61
+1017,merck,7.394,7.855,merck/hif2a_automap/167
+1018,merck,6.787,6.796,merck/hif2a_automap/165
+1019,merck,6.916,7.202,merck/hif2a_automap/41
+1020,merck,7.231,5.442,merck/hif2a_automap/7b
+1021,merck,7.252,6.851,merck/hif2a_automap/54
+1022,merck,7.217,7.8,merck/hif2a_automap/215
+1023,merck,7.353,7.855,merck/hif2a_automap/57
+1024,merck,6.484,6.579,merck/hif2a_automap/42
+1025,merck,7.068,7.147,merck/hif2a_automap/252
+1026,merck,6.953,7.229,merck/hif2a_automap/336
+1027,merck,6.936,7.776,merck/hif2a_automap/290
+1028,merck,7.289,7.73,merck/hif2a_automap/155
+1029,merck,6.94,4.978,merck/hif2a_automap/164
+1030,merck,7.191,7.357,merck/hif2a_automap/7a
+1031,merck,7.332,7.109,merck/hif2a_automap/224
+1032,merck,7.209,5.575,merck/hif2a_automap/84
+1033,merck,7.182,7.028,merck/hif2a_automap/254
+1034,merck,6.955,5.201,merck/hif2a_automap/23
+1035,merck,7.182,7.538,merck/hif2a_automap/251
+1036,merck,7.137,7.855,merck/hif2a_automap/256
+1037,merck,6.945,7.136,merck/hif2a_automap/50
+1038,merck,7.168,7.376,merck/hif2a_automap/231
+1039,merck,7.403,8.129,merck/hif2a_automap/15
+1040,merck,7.412,7.45,merck/hif2a_automap/124
+1041,merck,7.577,7.568,merck/hif2a_automap/25
+1042,merck,7.08,8.103,merck/hif2a_automap/163
+1043,merck,5.763,6.293,merck/tnks2_fullmap/1a
+1044,merck,6.459,7.313,merck/tnks2_fullmap/1b
+1045,merck,7.174,8.093,merck/tnks2_fullmap/3a
+1046,merck,7.074,8.477,merck/tnks2_fullmap/3b
+1047,merck,7.431,7.553,merck/tnks2_fullmap/5f
+1048,merck,7.351,7.427,merck/tnks2_fullmap/5l
+1049,merck,7.682,7.952,merck/tnks2_fullmap/5g
+1050,merck,7.194,7.438,merck/tnks2_fullmap/5e
+1051,merck,7.374,8.889,merck/tnks2_fullmap/5i
+1052,merck,7.197,7.708,merck/tnks2_fullmap/5b
+1053,merck,7.367,7.396,merck/tnks2_fullmap/5h
+1054,merck,7.065,7.917,merck/tnks2_fullmap/5a
+1055,merck,7.232,8.068,merck/tnks2_fullmap/5k
+1056,merck,7.391,7.73,merck/tnks2_fullmap/5p
+1057,merck,7.28,8.157,merck/tnks2_fullmap/5j
+1058,merck,7.051,8.011,merck/tnks2_fullmap/5d
+1059,merck,7.423,9.338,merck/tnks2_fullmap/5m
+1060,merck,7.33,7.885,merck/tnks2_fullmap/5n
+1061,merck,7.368,7.33,merck/tnks2_fullmap/5c
+1062,merck,6.959,6.179,merck/tnks2_fullmap/7
+1063,merck,7.459,7.952,merck/tnks2_fullmap/8a neutral
+1064,merck,7.651,8.779,merck/tnks2_fullmap/8b neutral
+1065,merck,7.61,7.45,merck/tnks2_fullmap/8c adjust
+1066,merck,7.587,9.191,merck/tnks2_fullmap/8d
+1067,merck,7.727,7.538,merck/tnks2_fullmap/8e adjust neutral
+1068,merck,7.734,8.692,merck/tnks2_fullmap/8f neutral
+1069,merck,7.587,9.191,merck/tnks2_fullmap/8d neutral equitorial
+1070,merck,7.61,7.45,merck/tnks2_fullmap/8c neutral equitorial
+1071,merck,7.68,8.859,merck/tnks2_fullmap/5o adjust
+1072,merck,7.75,8.692,merck/tnks2_fullmap/8f
+1073,merck,7.626,8.779,merck/tnks2_fullmap/8b
+1074,merck,7.775,7.538,merck/tnks2_fullmap/8e
+1075,merck,7.451,7.952,merck/tnks2_fullmap/8a
+1076,merck,7.138,8.785,merck/cdk8_5cei_new_helix_loop_extra/43
+1077,merck,6.573,7.569,merck/cdk8_5cei_new_helix_loop_extra/22
+1078,merck,6.634,8.608,merck/cdk8_5cei_new_helix_loop_extra/30
+1079,merck,6.53,7.178,merck/cdk8_5cei_new_helix_loop_extra/21
+1080,merck,6.377,7.612,merck/cdk8_5cei_new_helix_loop_extra/24
+1081,merck,6.749,8.383,merck/cdk8_5cei_new_helix_loop_extra/38
+1082,merck,6.615,8.785,merck/cdk8_5cei_new_helix_loop_extra/31
+1083,merck,6.674,8.304,merck/cdk8_5cei_new_helix_loop_extra/41
+1084,merck,6.635,6.812,merck/cdk8_5cei_new_helix_loop_extra/29
+1085,merck,6.745,7.518,merck/cdk8_5cei_new_helix_loop_extra/26
+1086,merck,6.474,7.873,merck/cdk8_5cei_new_helix_loop_extra/20
+1087,merck,6.55,8.481,merck/cdk8_5cei_new_helix_loop_extra/35
+1088,merck,6.496,8.236,merck/cdk8_5cei_new_helix_loop_extra/40
+1089,merck,6.399,7.902,merck/cdk8_5cei_new_helix_loop_extra/19
+1090,merck,6.504,8.177,merck/cdk8_5cei_new_helix_loop_extra/33
+1091,merck,6.138,6.229,merck/cdk8_5cei_new_helix_loop_extra/27
+1092,merck,6.216,8.304,merck/cdk8_5cei_new_helix_loop_extra/13
+1093,merck,6.547,8.481,merck/cdk8_5cei_new_helix_loop_extra/39
+1094,merck,6.351,7.028,merck/cdk8_5cei_new_helix_loop_extra/32
+1095,merck,6.697,8.481,merck/cdk8_5cei_new_helix_loop_extra/37
+1096,merck,6.728,6.634,merck/cdk8_5cei_new_helix_loop_extra/23
+1097,merck,6.354,5.658,merck/cdk8_5cei_new_helix_loop_extra/15
+1098,merck,6.593,8.236,merck/cdk8_5cei_new_helix_loop_extra/34
+1099,merck,6.424,7.208,merck/cdk8_5cei_new_helix_loop_extra/25
+1100,merck,6.18,6.136,merck/cdk8_5cei_new_helix_loop_extra/14
+1101,merck,6.552,8.304,merck/cdk8_5cei_new_helix_loop_extra/36
+1102,merck,6.672,8.079,merck/cdk8_5cei_new_helix_loop_extra/18 flipped
+1103,merck,5.923,6.837,merck/cdk8_5cei_new_helix_loop_extra/16 flipped
+1104,merck,7.269,6.618,merck/cdk8_5cei_new_helix_loop_extra/17 flipped
+1105,merck,6.995,8.481,merck/cdk8_5cei_new_helix_loop_extra/44 flipped
+1106,merck,6.797,8.236,merck/cdk8_5cei_new_helix_loop_extra/45 flipped
+1107,merck,7.239,8.481,merck/cdk8_5cei_new_helix_loop_extra/42 flipped
+1108,waterset,7.272,7.964,"waterset/urokinase/10302 (1GJ7, no water pose)"
+1109,waterset,6.967,7.775,waterset/urokinase/11417 (no water pose)
+1110,waterset,6.848,6.367,waterset/urokinase/7806 (no water pose)
+1111,waterset,6.806,7.214,waterset/urokinase/8696 (no water pose)
+1112,waterset,7.09,6.766,waterset/scyt_dehyd/3d
+1113,waterset,7.01,7.822,waterset/scyt_dehyd/8d
+1114,waterset,7.098,9.921,waterset/scyt_dehyd/2d
+1115,waterset,7.361,11.291,waterset/scyt_dehyd/4d
+1116,waterset,7.06,9.753,waterset/scyt_dehyd/5d
+1117,waterset,7.129,6.922,waterset/scyt_dehyd/6d
+1118,waterset,7.345,11.224,waterset/scyt_dehyd/7d
+1119,waterset,6.516,5.622,waterset/brd41_ASH106/cmpd 5 (1-Butenyl)
+1120,waterset,5.747,7.057,waterset/brd41_ASH106/cmpd 2 (methyl)
+1121,waterset,6.162,5.218,waterset/brd41_ASH106/cmpd 3 (Allyl)
+1122,waterset,6.147,5.313,waterset/brd41_ASH106/cmpd 9 (methoxyethyl)
+1123,waterset,5.896,6.322,waterset/brd41_ASH106/cmpd 6 (ethyl)
+1124,waterset,6.516,5.637,waterset/brd41_ASH106/cmpd 8 (n-Butyl)
+1125,waterset,6.162,5.166,waterset/brd41_ASH106/cmpd 7 (n-propyl)
+1126,waterset,6.516,6.358,waterset/brd41_ASH106/cmpd 4 (Crotyl)
+1127,waterset,6.287,6.572,waterset/hsp90_woodhead/4
+1128,waterset,5.864,9.361,waterset/hsp90_woodhead/1
+1129,waterset,6.079,5.946,waterset/hsp90_woodhead/3
+1130,waterset,5.538,7.904,waterset/hsp90_woodhead/2
+1131,waterset,7.255,4.88,waterset/throm_nozob_hip75/2d pose 2
+1132,waterset,7.088,5.362,waterset/throm_nozob_hip75/2c pose 2
+1133,waterset,7.138,5.453,waterset/throm_nozob_hip75/7b
+1134,waterset,7.289,5.894,waterset/throm_nozob_hip75/7c pose 1
+1135,waterset,7.367,4.506,waterset/throm_nozob_hip75/7f
+1136,waterset,7.18,5.362,waterset/throm_nozob_hip75/2b pose 1
+1137,waterset,6.928,5.453,waterset/throm_nozob_hip75/1a pose 2
+1138,waterset,6.941,4.161,waterset/throm_nozob_hip75/7e pose 1
+1139,waterset,7.821,7.294,waterset/throm_nozob_hip75/6a pose 1
+1140,waterset,6.838,5.0,waterset/throm_nozob_hip75/5
+1141,waterset,7.205,6.314,waterset/throm_nozob_hip75/1c pose 2
+1142,waterset,7.68,4.869,waterset/throm_nozob_hip75/2a pose 2
+1143,waterset,7.256,5.611,waterset/throm_nozob_hip75/7a pose 2
+1144,waterset,7.345,5.339,waterset/throm_nozob_hip75/3b pose 1
+1145,waterset,7.136,6.427,waterset/throm_nozob_hip75/6d pose 2
+1146,waterset,7.74,6.634,waterset/throm_nozob_hip75/6c pose 1
+1147,waterset,7.283,5.976,waterset/throm_nozob_hip75/3a xtal pose
+1148,waterset,7.092,6.812,waterset/throm_nozob_hip75/1b pose 2
+1149,waterset,6.963,6.65,waterset/throm_nozob_hip75/6b pose 2
+1150,waterset,7.777,6.364,waterset/throm_nozob_hip75/6e pose 1
+1151,waterset,7.294,6.33,waterset/throm_nozob_hip75/1d pose 2
+1152,waterset,6.808,7.359,waterset/taf12/cmpd 5 (1-Butenyl)
+1153,waterset,6.178,7.256,waterset/taf12/cmpd 2 (methyl)
+1154,waterset,6.586,6.138,waterset/taf12/cmpd 3 (Allyl)
+1155,waterset,6.717,5.659,waterset/taf12/cmpd 9 (methoxyethyl)
+1156,waterset,6.341,6.277,waterset/taf12/cmpd 6 (ethyl)
+1157,waterset,6.789,6.093,waterset/taf12/cmpd 8 (n-Butyl)
+1158,waterset,6.565,5.976,waterset/taf12/cmpd 7 (n-propyl)
+1159,waterset,6.817,6.41,waterset/taf12/cmpd 4 (Crotyl)
+1160,waterset,7.396,9.617,waterset/chk1/21 (Xtal)
+1161,waterset,7.481,9.617,waterset/chk1/22
+1162,waterset,7.196,9.697,waterset/chk1/24 pose 2
+1163,waterset,7.16,7.999,waterset/chk1/14 docked
+1164,waterset,7.058,7.028,waterset/chk1/18 docked
+1165,waterset,7.01,7.301,waterset/chk1/13 docked
+1166,waterset,6.737,7.42,waterset/chk1/20
+1167,waterset,7.853,6.338,waterset/chk1/12 docked
+1168,waterset,7.265,8.67,waterset/chk1/16 docked
+1169,waterset,7.307,7.543,waterset/chk1/19
+1170,waterset,7.556,7.598,waterset/chk1/17 torsion adjust
+1171,waterset,7.052,7.391,waterset/chk1/15 docked
+1172,waterset,7.362,8.079,waterset/chk1/11 docked
+1173,waterset,6.465,7.602,waterset/hsp90_kung/cmpd 16
+1174,waterset,6.385,5.828,waterset/hsp90_kung/cmpd 9
+1175,waterset,6.805,7.47,waterset/hsp90_kung/cmpd 13
+1176,waterset,6.116,5.755,waterset/hsp90_kung/cmpd 14
+1177,waterset,6.69,7.072,waterset/hsp90_kung/cmpd 15
+1178,waterset,6.094,6.925,waterset/hsp90_kung/cmpd 7
+1179,waterset,6.332,7.904,waterset/hsp90_kung/cmpd 17
+1180,waterset,6.723,6.763,waterset/hsp90_kung/cmpd 11
+1181,waterset,7.003,6.763,waterset/hsp90_kung/cmpd 12
+1182,waterset,7.093,6.763,waterset/hsp90_kung/cmpd 10
+1183,waterset,6.197,5.048,waterset/hsp90_kung/cmpd 8
