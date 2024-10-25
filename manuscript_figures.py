@@ -448,3 +448,85 @@ performance = performance[['Target',"Pearson's R_fep","Pearson's R_aevplig",
 
 # plot barplot
 plot_bars_comparison(performance_baseline, performance_aevplig, performance_fep, "Pearson's R", "Kendall's Tau", xlabel='Target', y1_label='PCC', y2_label=r"K$\tau$", y1_lim=(-0.2,1), y2_lim=(-0.2, 1), outpath='figures/new_figure6.png')
+
+
+"""
+Generate scatter plots for each series
+"""
+# load FEP+ results
+results_fep = pd.read_csv('new_data/fep/fep_benchmark_fep+_predictions.csv', index_col=0)
+
+# define big series
+counts = pd.DataFrame(results_fep["group_id"].value_counts())
+groups = list(counts[counts["count"] >= 25].index)
+groups.remove('jacs_set/bace')
+
+# load AEV-PLIG results
+fep_index = pd.read_csv('new_data/fep/fep_benchmark_fep+_predictions.csv', index_col=0)
+fep_index = fep_index[["graph_id", "Exp. dG (kcal/mol)"]]
+fep_index = fep_index.rename(columns={"graph_id":"unique_id"})
+results = pd.read_csv('new_data/bindingnet_bindingdb/AEV-PLIG_fep_benchmark_pdbbind_U_bindingnet_U_bindingdb_ligsim90_predictions.csv', index_col=0)
+results["preds"] = -R*T*np.log(10)*results['preds']
+results = results.merge(fep_index, how="left", on="unique_id")
+
+target_dict = {'gpcrs/ox2_hip_custcore':'OX2',
+ 'merck/syk_4puz_fullmap':'SYK',
+ 'jacs_set/mcl1_extra_flips':'Mcl1',
+ 'merck/hif2a_automap':'HIF2α',
+ 'merck/pfkfb3_automap':'PFKFB3',
+ 'jacs_set/p38':'p38',
+ 'merck/eg5_extraprotomers':'Eg5',
+ 'janssen_bace/bace_ciordia_retro':'BACE1',
+ 'merck/tnks2_fullmap':'TNKS2',
+ 'merck/cdk8_5cei_new_helix_loop_extra':'CDK8',
+ 'mcs_docking/renin_customcore':'Renin',
+ 'opls_stress/fxa_yoshikawa_set':'Factor Xa',
+ 'misc/galectin3_extra':'Galectin',
+ 'merck/shp2':'SHP-2'}
+
+# Shift predictions
+for group in groups:
+    subset = results[results['group_id'] == group]
+    mean_exp = subset['Exp. dG (kcal/mol)'].mean()
+    mean_pred = subset['preds'].mean()
+    shift_value = mean_exp - mean_pred
+    results.loc[results['group_id'] == group, 'preds'] += shift_value
+
+# Plotting
+num_plots = len(groups)
+num_cols = 4
+num_rows = (num_plots + num_cols - 1) // num_cols
+
+fig, axes = plt.subplots(num_rows, num_cols, figsize=(20, 15))
+axes = axes.flatten()
+
+for i, group in enumerate(groups):
+    subset_results = results[results['group_id'] == group]
+    subset_fep = results_fep[results_fep['group_id'] == group]
+    
+    ax = axes[i]
+    sns.scatterplot(x='Exp. dG (kcal/mol)', y='preds', data=subset_results, ax=ax, label='AEV-PLIG')
+    sns.scatterplot(x='Exp. dG (kcal/mol)', y='Pred. dG (kcal/mol)', data=subset_fep, ax=ax, label='FEP+')
+    
+    # Calculate PCC
+    pcc_results, _ = pearsonr(subset_results['Exp. dG (kcal/mol)'], subset_results['preds'])
+    pcc_fep, _ = pearsonr(subset_fep['Exp. dG (kcal/mol)'], subset_fep['Pred. dG (kcal/mol)'])
+    
+    ax.set_title(f"{target_dict[group]} (PCC Results: {pcc_results:.2f}, PCC FEP: {pcc_fep:.2f})")
+    ax.set_xlabel('Experimental dG (kcal/mol)')
+    ax.set_ylabel('Predicted dG (kcal/mol)')
+    
+    # Ensure the range of values on the y axes are the same as on the x axes
+    min_val = min(subset_results['Exp. dG (kcal/mol)'].min() - 2, subset_fep['Exp. dG (kcal/mol)'].min() - 2)
+    max_val = max(subset_results['Exp. dG (kcal/mol)'].max() + 2, subset_fep['Exp. dG (kcal/mol)'].max() + 2)
+    ax.set_xlim(min_val, max_val)
+    ax.set_ylim(min_val, max_val)
+    ax.plot([min_val, max_val], [min_val, max_val], 'k--')
+
+# Remove any empty subplots
+for j in range(i + 1, len(axes)):
+    fig.delaxes(axes[j])
+
+plt.tight_layout()
+#plt.savefig('figures/scatter_plots.png')
+plt.show()
