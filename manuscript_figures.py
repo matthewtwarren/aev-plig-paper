@@ -454,7 +454,7 @@ plot_bars_comparison(performance_baseline, performance_aevplig, performance_fep,
 Generate scatter plots for each series
 """
 # load FEP+ results
-results_fep = pd.read_csv('new_data/fep/fep_benchmark_fep+_predictions.csv', index_col=0)
+results_fep = pd.read_csv('data/fep/fep_benchmark_fep+_predictions.csv', index_col=0)
 
 # define big series
 counts = pd.DataFrame(results_fep["group_id"].value_counts())
@@ -462,10 +462,10 @@ groups = list(counts[counts["count"] >= 25].index)
 groups.remove('jacs_set/bace')
 
 # load AEV-PLIG results
-fep_index = pd.read_csv('new_data/fep/fep_benchmark_fep+_predictions.csv', index_col=0)
+fep_index = pd.read_csv('data/fep/fep_benchmark_fep+_predictions.csv', index_col=0)
 fep_index = fep_index[["graph_id", "Exp. dG (kcal/mol)"]]
 fep_index = fep_index.rename(columns={"graph_id":"unique_id"})
-results = pd.read_csv('new_data/bindingnet_bindingdb/AEV-PLIG_fep_benchmark_pdbbind_U_bindingnet_U_bindingdb_ligsim90_predictions.csv', index_col=0)
+results = pd.read_csv('data/bindingnet_bindingdb/AEV-PLIG_fep_benchmark_pdbbind_U_bindingnet_U_bindingdb_ligsim90_predictions.csv', index_col=0)
 results["preds"] = -R*T*np.log(10)*results['preds']
 results = results.merge(fep_index, how="left", on="unique_id")
 
@@ -512,7 +512,7 @@ for i, group in enumerate(groups):
     pcc_results, _ = pearsonr(subset_results['Exp. dG (kcal/mol)'], subset_results['preds'])
     pcc_fep, _ = pearsonr(subset_fep['Exp. dG (kcal/mol)'], subset_fep['Pred. dG (kcal/mol)'])
     
-    ax.set_title(f"{target_dict[group]} (PCC Results: {pcc_results:.2f}, PCC FEP: {pcc_fep:.2f})")
+    ax.set_title(f"{target_dict[group]} (PCC AEV-PLIG: {pcc_results:.2f}, PCC FEP+: {pcc_fep:.2f})")
     ax.set_xlabel('Experimental dG (kcal/mol)')
     ax.set_ylabel('Predicted dG (kcal/mol)')
     
@@ -528,5 +528,5 @@ for j in range(i + 1, len(axes)):
     fig.delaxes(axes[j])
 
 plt.tight_layout()
-#plt.savefig('figures/scatter_plots.png')
+plt.savefig('figures/series_scatter_plots.png')
 plt.show()
