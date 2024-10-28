@@ -208,7 +208,7 @@ Print ligsim90 results
 R = 1.987e-3
 T = 297
 
-fep_index = pd.read_csv('new_data/fep/fep_benchmark_fep+_predictions.csv', index_col=0)
+fep_index = pd.read_csv('data/fep/fep_benchmark_fep+_predictions.csv', index_col=0)
 counts = pd.DataFrame(fep_index["group_id"].value_counts())
 groups = list(counts[counts["count"] >= 10].index)
 
@@ -216,7 +216,7 @@ performance_fep = get_performance_df(fep_index, 'Pred. dG (kcal/mol)', 'Exp. dG 
 
 fep_index = fep_index[["graph_id", "Exp. dG (kcal/mol)"]]
 fep_index = fep_index.rename(columns={"graph_id":"unique_id"})
-results = pd.read_csv('new_data/bindingnet_bindingdb/AEV-PLIG_fep_benchmark_pdbbind_U_bindingnet_U_bindingdb_ligsim90_predictions.csv')
+results = pd.read_csv('data/bindingnet_bindingdb/AEV-PLIG_fep_benchmark_pdbbind_U_bindingnet_U_bindingdb_ligsim90_predictions.csv')
 results["preds"] = -R*T*np.log(10)*results['preds']
 results = results.merge(fep_index, how="left", on="unique_id")
 performance_aevplig = get_performance_df(results, 'preds', 'Exp. dG (kcal/mol)', groups)
@@ -234,10 +234,10 @@ print("WKtau:", weighted_mean(np.array(performance_aevplig["Sample size"]), np.a
 print("CI:", get_bootstrap_weighted_value(np.array(performance_aevplig["Sample size"]), np.array(performance_aevplig["Kendall's Tau"])))
 
 # baseline AEV-PLIG
-fep_index = pd.read_csv('new_data/fep/fep_benchmark_fep+_predictions.csv', index_col=0)
+fep_index = pd.read_csv('data/fep/fep_benchmark_fep+_predictions.csv', index_col=0)
 fep_index = fep_index[["graph_id", "Exp. dG (kcal/mol)"]]
 fep_index = fep_index.rename(columns={"graph_id":"unique_id"})
-results = pd.read_csv('new_data/baseline/AEV-PLIG_fep_benchmark_pdbbind_ligsim90_predictions.csv')
+results = pd.read_csv('data/baseline/AEV-PLIG_fep_benchmark_pdbbind_ligsim90_predictions.csv')
 results["preds"] = -R*T*np.log(10)*results['preds']
 results = results.merge(fep_index, how="left", on="unique_id")
 performance_aevplig = get_performance_df(results, 'preds', 'Exp. dG (kcal/mol)', groups)
@@ -530,3 +530,164 @@ for j in range(i + 1, len(axes)):
 plt.tight_layout()
 plt.savefig('figures/series_scatter_plots.png')
 plt.show()
+
+
+"""
+Plot results where we gradually add more augmented data to the training set
+"""
+
+def plot_lineplot_augmented(
+    df,
+    pcc_lims,
+    ktau_lims,
+    pcc_ticks,
+    ktau_ticks,
+    xlabel,
+    invert_xaxis=False,
+    outpath=None,
+):
+    color = "steelblue"
+    fig = plt.figure(figsize=(3.8, 8))
+    gs = gridspec.GridSpec(2, 1, height_ratios=[1, 1])
+
+    ax1 = plt.subplot(gs[0])
+    ax2 = plt.subplot(gs[1], sharex=ax1)
+
+    # plot PCC data
+    sns.lineplot(
+        data = df,
+        x="Percent",
+        y="WPCC",
+        color=color,
+        marker="o",
+        ms=10,
+        lw=2,
+        markeredgecolor="black",
+        markeredgewidth=1.1,
+        ax=ax1
+    )
+    errors = np.array([df["WPCC"] - df["WPCC_low"], df["WPCC_high"] - df["WPCC"]])
+    ax1.errorbar(df["Percent"], df["WPCC"], yerr=errors, fmt='o', capsize=4, elinewidth=1.5, ecolor=color, capthick=1.5, zorder=0)
+
+    # plot Ktau data
+    sns.lineplot(
+        data = df,
+        x="Percent",
+        y="WKtau",
+        color=color,
+        marker="o",
+        ms=10,
+        lw=2,
+        markeredgecolor="black",
+        markeredgewidth=1.1,
+        ax=ax2,
+        legend=False
+    )
+    errors = np.array([df["WKtau"] - df["WKtau_low"], df["WKtau_high"] - df["WKtau"]])
+    ax2.errorbar(df["Percent"], df["WKtau"], yerr=errors, fmt='o', capsize=4, elinewidth=1.5, ecolor=color, capthick=1.5, zorder=0)
+
+    ax1.set_ylabel("Weighted mean PCC")
+    ax1.set_xlabel("")
+    ax1.set_ylim(pcc_lims)
+    ax1.set_yticks(pcc_ticks)
+    ax1.set_xticks(["0","10","20","30","40","50","60","70","80","90","100"])
+    ax1.set_title("a)", loc="left", fontsize=14, position=(-0.25, 1.0))
+
+    ax2.set_xlabel(xlabel)
+    ax2.set_ylabel(r"Weighted mean K$\tau$")
+    ax2.set_ylim(ktau_lims)
+    ax2.set_yticks(ktau_ticks)
+    ax2.set_xticks(["0","10","20","30","40","50","60","70","80","90","100"])
+    ax2.set_title("b)", loc="left", fontsize=14, position=(-0.25, 1.0))
+
+    plt.tight_layout()
+
+    if outpath:
+        plt.savefig(outpath)
+
+
+R = 1.987e-3
+T = 297
+
+x_axis = ["0","10","20","30","40","50","60","70","80","90","100"]
+
+fep_index = pd.read_csv('data/fep/fep_benchmark_fep+_predictions.csv', index_col=0)
+fep_index = fep_index.rename(columns={"graph_id":"unique_id"})
+counts = pd.DataFrame(fep_index["group_id"].value_counts())
+groups = list(counts[counts["count"] >= 10].index)
+
+wpcc = []
+wpcc_low = []
+wpcc_high = []
+wktau = []
+wktau_low = []
+wktau_high = []
+
+results = pd.read_csv('data/baseline/AEV-PLIG_fep_benchmark_pdbbind_ligsim90_predictions.csv', index_col=0)
+results["preds"] = -R*T*np.log(10)*results['preds']
+results = results.merge(fep_index[["unique_id", "Exp. dG (kcal/mol)"]], how="left", on="unique_id")
+performance = get_performance_df(results, 'preds', 'Exp. dG (kcal/mol)', groups)
+
+wpcc.append(weighted_mean(np.array(performance["Sample size"]), np.array(performance["Pearson's R"])))
+ci = get_bootstrap_weighted_value(np.array(performance["Sample size"]), np.array(performance["Pearson's R"]))
+wpcc_low.append(ci[0])
+wpcc_high.append(ci[1])
+
+wktau.append(weighted_mean(np.array(performance["Sample size"]), np.array(performance["Kendall's Tau"])))
+ci = get_bootstrap_weighted_value(np.array(performance["Sample size"]), np.array(performance["Kendall's Tau"]))
+wktau_low.append(ci[0])
+wktau_high.append(ci[1])
+
+for i in range(1,10):
+    add = str(i) + '0'
+    results = pd.read_csv('data/augmented_data_test/AEV-PLIG_fep_benchmark_pdbbind_U_bindingnet_U_bindingdb_ligsim90_' + add + 'percent' + '_predictions.csv')
+    results["preds"] = -R*T*np.log(10)*results['preds']
+    performance = get_performance_df(results, 'preds', 'Exp. dG (kcal/mol)', groups)
+    
+    wpcc.append(weighted_mean(np.array(performance["Sample size"]), np.array(performance["Pearson's R"])))
+    ci = get_bootstrap_weighted_value(np.array(performance["Sample size"]), np.array(performance["Pearson's R"]))
+    wpcc_low.append(ci[0])
+    wpcc_high.append(ci[1])
+
+    wktau.append(weighted_mean(np.array(performance["Sample size"]), np.array(performance["Kendall's Tau"])))
+    ci = get_bootstrap_weighted_value(np.array(performance["Sample size"]), np.array(performance["Kendall's Tau"]))
+    wktau_low.append(ci[0])
+    wktau_high.append(ci[1])
+
+results = pd.read_csv('data/bindingnet_bindingdb/AEV-PLIG_fep_benchmark_pdbbind_U_bindingnet_U_bindingdb_ligsim90_predictions.csv', index_col=0)
+results["preds"] = -R*T*np.log(10)*results['preds']
+results = results.merge(fep_index[["unique_id", "Exp. dG (kcal/mol)"]], how="left", on="unique_id")
+performance = get_performance_df(results, 'preds', 'Exp. dG (kcal/mol)', groups)
+
+wpcc.append(weighted_mean(np.array(performance["Sample size"]), np.array(performance["Pearson's R"])))
+ci = get_bootstrap_weighted_value(np.array(performance["Sample size"]), np.array(performance["Pearson's R"]))
+wpcc_low.append(ci[0])
+wpcc_high.append(ci[1])
+
+wktau.append(weighted_mean(np.array(performance["Sample size"]), np.array(performance["Kendall's Tau"])))
+ci = get_bootstrap_weighted_value(np.array(performance["Sample size"]), np.array(performance["Kendall's Tau"]))
+wktau_low.append(ci[0])
+wktau_high.append(ci[1])
+
+df = pd.DataFrame(
+    {
+        "Percent": x_axis,
+        "WPCC": wpcc,
+        "WPCC_low": wpcc_low,
+        "WPCC_high": wpcc_high,
+        "WKtau": wktau,
+        "WKtau_low": wktau_low,
+        "WKtau_high": wktau_high
+    }
+)
+
+plot_lineplot_augmented(
+    df,
+    [0.3, 0.7],
+    [0.1, 0.5],
+    [0.3, 0.4, 0.5, 0.6, 0.7],
+    [0.1, 0.2, 0.3, 0.4, 0.5],
+    xlabel="Proportion of augmented data [%]",
+    invert_xaxis=True,
+    outpath="figures/AEV-PLIG_augmented_data.png",
+)
