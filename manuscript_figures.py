@@ -750,6 +750,9 @@ def plot_bars(df_baseline, df_augmented, column1="pcc", column2="ktau", xlabel='
     ax2.set_xticklabels(labels)
     ax1.legend(ncol=2, frameon=False, loc='upper center', bbox_to_anchor=(0.5, 1.15))
 
+    ax1.set_title("a)", loc="left", fontsize=14, position=(-0.08, 1))
+    ax2.set_title("b)", loc="left", fontsize=14, position=(-0.08, 1))
+
     if outpath:
         plt.tight_layout(pad=1)
         plt.savefig(outpath, dpi=500)
