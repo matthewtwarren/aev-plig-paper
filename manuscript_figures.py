@@ -691,3 +691,120 @@ plot_lineplot_augmented(
     invert_xaxis=True,
     outpath="figures/AEV-PLIG_augmented_data.png",
 )
+
+
+"""
+Create barplot of AEV-PLIG on CASF-2016, 0 Ligand Bias and OOD Test
+with and without augmented data
+"""
+R = 1.987e-3
+T = 297
+
+def pearson(true, pred):
+    return pearsonr(true, pred)[0]
+
+def kendall(true, pred):
+    return kendalltau(true, pred)[0]
+
+def generate_results(results, pred_col='pred', truth_col='pk'):
+    preds = np.array(results[pred_col])
+    truth = np.array(results[truth_col])
+
+    pcc = pearson(preds, truth)
+    ktau = kendall(preds, truth)
+
+    results['pred'] = -R*T*np.log(10)*results[pred_col]
+    results['truth'] = -R*T*np.log(10)*results[truth_col]
+    preds = np.array(results['pred'])
+    truth = np.array(results['truth'])
+    error = rmse(preds, truth)
+    return pcc, ktau, error
+
+def plot_bars(df_baseline, df_augmented, column1="pcc", column2="ktau", xlabel='', y1_label='PCC', y2_label=r"Kendall's $\tau$", y1_lim=(0,1), y2_lim=(0,1), outpath=None):
+    
+    color = "steelblue"
+    color_baseline = "green"
+
+    labels = df_baseline.test_set
+    x = [x for x in range(3)]
+    
+    bar_width = 0.35
+
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(9,6), sharex=True, constrained_layout=True)
+    
+    bars1_1 = ax1.bar(x, df_baseline[column1], bar_width, label='PDBbind v2020', facecolor=color_baseline, edgecolor='black')
+    bars1_2 = ax1.bar([i + bar_width for i in x], df_augmented[column1], bar_width, label='PBDbind v2020 + BindingNet + BindingDB-DCS', facecolor=color, edgecolor='black')
+
+    bars2_1 = ax2.bar(x, df_baseline[column2], bar_width, label='PDBbind v2020', facecolor=color_baseline, edgecolor='black')
+    bars2_2 = ax2.bar([i + bar_width for i in x], df_augmented[column2], bar_width, label='PBDbind v2020 + BindingNet + BindingDB-DCS', facecolor=color, edgecolor='black')
+
+    ax1.set_ylim(y1_lim)
+    ax2.set_ylim(y2_lim)
+
+    ax1.set_ylabel(y1_label)
+    ax2.set_ylabel(y2_label)
+
+    ax2.set_xlabel(xlabel, labelpad=1)
+    ax1.set_xticks([i + bar_width/2 for i in x])
+    ax2.set_xticks([i + bar_width/2 for i in x])
+    ax2.set_xticklabels(labels)
+    ax1.legend(ncol=2, frameon=False, loc='upper center', bbox_to_anchor=(0.5, 1.15))
+
+    if outpath:
+        plt.tight_layout(pad=1)
+        plt.savefig(outpath, dpi=500)
+
+# Create dataframe for augmented AEV-PLIG
+test_sets = ["CASF-2016", "OOD Test", "0 Ligand Bias"]
+pccs = []
+ktaus = []
+rmses = []
+
+results = pd.read_csv("data/bindingnet_bindingdb/AEV-PLIG_casf2016_pdbbind_U_bindingnet_U_bindingdb_predictions.csv")
+pcc, ktau, error = generate_results(results, pred_col='preds', truth_col='pk')
+pccs.append(pcc)
+ktaus.append(ktau)
+rmses.append(error)
+
+results = pd.read_csv("data/bindingnet_bindingdb/AEV-PLIG_oodtest_pdbbind_U_bindingnet_U_bindingdb_predictions.csv")
+pcc, ktau, error = generate_results(results, pred_col='preds', truth_col='pK')
+pccs.append(pcc)
+ktaus.append(ktau)
+rmses.append(error)
+
+results = pd.read_csv("data/bindingnet_bindingdb/AEV-PLIG_0ligandbias_pdbbind_U_bindingnet_U_bindingdb_predictions.csv")
+pcc, ktau, error = generate_results(results, pred_col='preds', truth_col='pk')
+pccs.append(pcc)
+ktaus.append(ktau)
+rmses.append(error)
+
+df_augmented = pd.DataFrame(data={"test_set":test_sets, "pcc":pccs, "ktau":ktaus, "rmse":rmses})
+
+# Create dataframe for baseline AEV-PLIG
+test_sets = ["CASF-2016", "OOD Test", "0 Ligand Bias"]
+pccs = []
+ktaus = []
+rmses = []
+
+results = pd.read_csv("data/baseline/AEV-PLIG_casf2016_pdbbind_predictions.csv")
+pcc, ktau, error = generate_results(results, pred_col='preds', truth_col='truth')
+pccs.append(pcc)
+ktaus.append(ktau)
+rmses.append(error)
+
+results = pd.read_csv("data/baseline/AEV-PLIG_oodtest_predictions.csv")
+pcc, ktau, error = generate_results(results, pred_col='preds', truth_col='pK')
+pccs.append(pcc)
+ktaus.append(ktau)
+rmses.append(error)
+
+results = pd.read_csv("data/baseline/AEV-PLIG_0ligandbias_pdbbind_predictions.csv")
+pcc, ktau, error = generate_results(results, pred_col='preds', truth_col='truth')
+pccs.append(pcc)
+ktaus.append(ktau)
+rmses.append(error)
+
+df_baseline = pd.DataFrame(data={"test_set":test_sets, "pcc":pccs, "ktau":ktaus, "rmse":rmses})
+
+plt.rcParams.update({'font.size': 12})
+plot_bars(df_baseline, df_augmented, outpath="figures/AEV-PLIG_casf2016_0ligandbias_oodtest.png")
